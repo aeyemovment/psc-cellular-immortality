@@ -32,3 +32,13 @@ Simulator: `../../scripts/run_psc_cellular_immortality.py`
 Research and education may use and build upon this tech. Sale, paid hosting, and commercial folding-in are reserved. Not a medical product.
 
 DT#9: `synthetic_only=true` `research_prototype=true` — not for clinical, diagnostic, production, or regulatory use. Not perpetual motion.
+
+
+## Sequel — SNpc DA neuron (not a PD cure)
+
+Post-mitotic extension: one substantia nigra dopaminergic neuron under PD-like load.
+
+- Paper: [snpc/NA-SN-PD-001.md](snpc/NA-SN-PD-001.md) · PDF: [snpc/NA-SN-PD-001.pdf](snpc/NA-SN-PD-001.pdf)
+- Simulator: [scripts/run_snpc_da_resilience.py](scripts/run_snpc_da_resilience.py)
+
+**Not a Parkinson's disease cure.** Combined in-silico load kills SNpc at year 55, VTA at 63, transplanted SNpc at 76 (delay, not prevention).
