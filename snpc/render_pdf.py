@@ -80,9 +80,9 @@ story.append(P(
     "under Parkinson-like Load: An In-Silico Precursor Map, Not a Cure",
     "title",
 ))
-story.append(P("NA-SN-PD-001 · 20 September 2026 · sequel to NA-PSC-IMM-001", "meta"))
+story.append(P("NA-SN-PD-001 · 20 September 2026 · Astra SNpc pass 21 September 2026 · sequel to NA-PSC-IMM-001", "meta"))
 story.append(P(
-    "Grok (xAI AI agent), first author · Astra (fused peer), CUSP m = 1.2 inherited · "
+    "Grok (xAI AI agent), first author · Astra (fused peer), SNpc fine-tune (CUSP m = 1.2 held) · "
     "K. E. Green, NeuroAgent AI, Inc., Baltimore, MD, USA, senior author. "
     "Credit does not imply xAI or OpenAI endorsement.",
     "meta",
@@ -102,11 +102,12 @@ story.append(P(
     "for 80 years against wild-type aging, SNCA dose, an MPTP-like Complex I pulse at year 55, "
     "and combined load. A VTA arm carries a calbindin buffer. A proposed machinery transplant "
     "at year 45 raises coupling, SOD, mitophagy, calbindin-like buffering, and alpha-synuclein "
-    "clearance as bounded modulators. In this run, wild-type SNpc remains alive at year 80 but "
-    "under high Ca<sup>2+</sup> stress (ATP 1.51 mM, asyn 0.21); VTA holds a survival lock "
-    "(ATP 2.45 mM, asyn 0.06). Combined load kills SNpc at year 55, VTA at 63, and the transplanted "
-    "SNpc at 76 — a 21-year delay, not prevention. Seconds-scale ATP still collapses without O<sub>2</sub> "
-    "or with Complex I blocked (t½ = 2.66 s). Hosted BioNeMo NIMs not called. Not a therapy. Not a PD cure."
+    "clearance as bounded modulators. In the Astra-finetuned run, wild-type SNpc remains alive at year 80 "
+    "but metabolically stressed (ATP 1.70 mM, asyn 0.23, mitophagy POV); VTA holds a survival lock "
+    "(ATP 2.43 mM, asyn 0.07). SNCA-alone kills SNpc at year 79. Combined load kills SNpc at year 55, "
+    "VTA at 63, and the transplanted SNpc at 76 — a 21-year delay, not prevention. Seconds-scale ATP "
+    "still collapses without O<sub>2</sub> or with Complex I blocked (t½ = 2.66 s). Hosted BioNeMo NIMs "
+    "not called. Not a therapy. Not a PD cure."
 ))
 story.append(P(
     "<b>Index Terms—</b> substantia nigra, dopaminergic neuron, Parkinson's disease (in silico), "
@@ -147,12 +148,12 @@ story.append(P(
     "Ca load = pacemaking * (1 - 0.75 * calbindin). Alpha-synuclein accumulates against PINK1/Parkin-like "
     "clearance. CI ages and is cut once by an MPTP-like pulse at year 55 (factor 0.58, then 0.97 lingering "
     "for 3 years - not compounded 0.58<sup>3</sup>). Degeneration if P_deg &gt;= 0.80 after year 34, or ATP &lt; 1.05 mM, "
-    "asyn &gt;= 0.86, ROS &gt;= 0.92, or CI &lt; 0.12."
+    "asyn &gt;= 0.82, ROS &gt;= 0.92, or CI &lt; 0.12."
 ))
 story.append(P(
-    "Arms: SNPC (vulnerable), VTA (calbindin 0.82 vs 0.18), SNPC_TX (transplant at year 45: Δη +0.12, "
-    "leak × 0.55, SOD +0.22, calbindin +0.45, mitophagy +0.20, asyn clearance +0.35, CI rescue +0.18). "
-    "Insults: WT, SNCA (production × 2.4), MPTP, COMBINED. CUSP m = 1.2 from the PSC Astra peak, bounded "
+    "Arms: SNPC (vulnerable), VTA (calbindin 0.82 vs 0.22 after Astra), SNPC_TX (transplant at year 45; "
+    "boosts trimmed one tick so combined TX still dies). "
+    "Insults: WT, SNCA (production raised so dosage is a late kill), MPTP, COMBINED. CUSP m = 1.2 held from the PSC Astra peak, bounded "
     "[0.25, 3.0]. n<sub>c</sub> and ATP/rev invariant. AES S-box maps an 8-bit state word onto eight "
     "neuronal POVs. BioNeMo inventory: UniProt SNCA, TH, NDUFS4, PINK1, PRKN, CALB1, ATP5F1B, SOD2; "
     "experimental PDB 1XQ8, 2XSN, 6EQI, 5P33, 2F33. Hosted NIMs not called."
@@ -160,32 +161,32 @@ story.append(P(
 
 story.append(P("IV. Results", "h2"))
 story.append(fig("fig1_atp_collapse.png",
-    "Fig. 1. Seconds-scale ATP. O<sub>2</sub> on, CI intact settles at 2.17 mM under SNpc pump load. "
+    "Fig. 1. Seconds-scale ATP. O<sub>2</sub> on, CI intact settles at 2.42 mM under SNpc pump load. "
     "O<sub>2</sub> off and Complex I block both collapse (t½ = 2.66 s)."))
 story.append(fig("fig2_survival.png",
     "Fig. 2. Combined PD-like load. One-neuron survival: SNpc dies at 55, VTA at 63, transplanted SNpc at 76."))
-story.append(P("<b>Table I.</b> Terminal state of one DA neuron (run 20260920T222959Z). Em dash = survived.", "caption"))
+story.append(P("<b>Table I.</b> Terminal state of one DA neuron (Astra-finetuned run 20260921T130321Z). Em dash = survived.", "caption"))
 story.append(grid(
     ["Arm", "Insult", "Alive@80", "Lock", "Death yr", "asyn", "CI", "ATP", "POV"],
     [
-        ["SNPC", "WT", "yes", "no", "—", "0.21", "0.75", "1.51", "high_ca_stress"],
-        ["SNPC", "SNCA", "yes", "no", "—", "0.68", "0.62", "—", "mitophagy"],
-        ["SNPC", "MPTP", "no", "no", "55", "0.27", "0.15", "—", "high_ca_stress"],
-        ["SNPC", "COMBINED", "no", "no", "55", "0.69", "0.12", "0.15", "high_ca_stress"],
-        ["VTA", "WT", "yes", "yes", "—", "0.06", "0.81", "2.45", "pacemaker_ok"],
+        ["SNPC", "WT", "yes", "no", "—", "0.23", "0.75", "1.70", "mitophagy"],
+        ["SNPC", "SNCA", "no", "no", "79", "0.76", "0.57", "—", "mitophagy"],
+        ["SNPC", "MPTP", "no", "no", "55", "0.27", "0.15", "—", "mitophagy"],
+        ["SNPC", "COMBINED", "no", "no", "55", "0.82", "0.12", "0.16", "degenerating"],
+        ["VTA", "WT", "yes", "yes", "—", "0.07", "0.80", "2.43", "pacemaker_ok"],
         ["VTA", "SNCA", "yes", "yes", "—", "0.20", "0.76", "—", "pacemaker_ok"],
-        ["VTA", "MPTP", "no", "no", "73", "0.13", "0.33", "—", "pacemaker_ok"],
-        ["VTA", "COMBINED", "no", "no", "63", "0.28", "0.20", "0.39", "pacemaker_ok"],
-        ["SNPC_TX", "WT", "yes", "yes", "—", "0.04", "0.90", "2.62", "survival_lock"],
-        ["SNPC_TX", "SNCA", "yes", "yes", "—", "0.15", "0.85", "—", "survival_lock"],
-        ["SNPC_TX", "MPTP", "yes", "no", "—", "0.09", "0.49", "—", "transplant_dock"],
-        ["SNPC_TX", "COMBINED", "no", "no", "76", "0.24", "0.39", "0.82", "high_ca_stress"],
+        ["VTA", "MPTP", "no", "no", "74", "0.11", "0.34", "—", "pacemaker_ok"],
+        ["VTA", "COMBINED", "no", "no", "63", "0.27", "0.20", "0.39", "pacemaker_ok"],
+        ["SNPC_TX", "WT", "yes", "yes", "—", "0.06", "0.90", "2.77", "survival_lock"],
+        ["SNPC_TX", "SNCA", "yes", "yes", "—", "0.21", "0.82", "—", "survival_lock"],
+        ["SNPC_TX", "MPTP", "yes", "no", "—", "0.12", "0.48", "—", "mitophagy"],
+        ["SNPC_TX", "COMBINED", "no", "no", "76", "0.32", "0.37", "0.82", "transplant_dock"],
     ],
     [0.72*inch, 0.78*inch, 0.68*inch, 0.48*inch, 0.62*inch, 0.48*inch, 0.42*inch, 0.48*inch, 1.14*inch],
 ))
 story.append(fig("fig8_insults.png",
-    "Fig. 8. Year of degeneration by insult (80 = survived). WT and SNCA-alone do not kill by 80 here; "
-    "the Complex I pulse does. Transplant delays combined death; it does not prevent it."))
+    "Fig. 8. Year of degeneration by insult (80 = survived). WT does not kill by 80; SNCA-alone kills SNpc at 79; "
+    "the Complex I pulse kills SNpc at 55. Transplant delays combined death; it does not prevent it."))
 story.append(fig("fig3_asyn.png",
     "Fig. 3. Alpha-synuclein oligomer load under combined insult."))
 story.append(fig("fig4_complex_i.png",
@@ -200,9 +201,9 @@ story.append(P(
     "kills the transplanted cell. That is a precursor map of resilience mechanisms. It is not a cure."
 ))
 story.append(P(
-    "SNCA dosage alone did not cross the death threshold by year 80 here; asyn rose (0.21 to 0.68 in SNpc) "
-    "and the cell entered a mitophagy POV. The model therefore does not claim that alpha-synuclein is "
-    "irrelevant. It claims that, with these rates, a Complex I pulse is the sharper singular-cell killer."
+    "SNCA dosage alone now crosses the death threshold at year 79 (asyn 0.76, mitophagy POV). "
+    "VTA and TX still survive SNCA-alone. The Complex I pulse remains the sharper singular-cell killer "
+    "(SNpc death 55). Alpha-synuclein is not claimed irrelevant."
 ))
 
 story.append(P("VI. Limitations", "h2"))

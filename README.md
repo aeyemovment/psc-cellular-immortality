@@ -41,4 +41,4 @@ Post-mitotic extension: one substantia nigra dopaminergic neuron under PD-like l
 - Paper: [snpc/NA-SN-PD-001.md](snpc/NA-SN-PD-001.md) · PDF: [snpc/NA-SN-PD-001.pdf](snpc/NA-SN-PD-001.pdf)
 - Simulator: [scripts/run_snpc_da_resilience.py](scripts/run_snpc_da_resilience.py)
 
-**Not a Parkinson's disease cure.** Combined in-silico load kills SNpc at year 55, VTA at 63, transplanted SNpc at 76 (delay, not prevention).
+**Not a Parkinson's disease cure.** Astra SNpc pass 2026-09-21. Combined in-silico load kills SNpc at year 55, VTA at 63, transplanted SNpc at 76 (delay, not prevention). SNCA-alone kills SNpc at year 79.

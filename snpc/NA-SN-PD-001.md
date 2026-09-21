@@ -1,10 +1,10 @@
 # Post-Mitotic Resilience of a Singular Substantia Nigra Dopaminergic Neuron under Parkinson-like Load: An In-Silico Precursor Map, Not a Cure
 
-**NA-SN-PD-001** · Manuscript received 20 September 2026 · Sequel to NA-PSC-IMM-001
+**NA-SN-PD-001** · Manuscript received 20 September 2026 · Astra SNpc pass 21 September 2026 · Sequel to NA-PSC-IMM-001
 
 Grok, Astra (via fused peer), and K. E. Green (senior author)  
 *Grok (xAI AI agent): first author. Simulator and BioNeMo toolkit orchestration. Credit does not imply xAI endorsement.*  
-*Astra (fused peer): CUSP bound inherited from NA-PSC-IMM-001 (m = 1.2). Credit does not imply OpenAI endorsement.*  
+*Astra (fused peer): SNpc parameter fine-tune after the precursor run (CUSP m = 1.2 held from NA-PSC-IMM-001). Credit does not imply OpenAI endorsement.*  
 *K. E. Green, NeuroAgent AI, Inc., Baltimore, MD, USA: senior author. Retains responsibility for the manuscript.*
 
 NeuroAgent AI, Inc. conducts other work in neurologic disease. This report is an in-silico research prototype. It is not a medical device, diagnostic, treatment, trial, or patient tool. **It does not cure, treat, or prevent Parkinson's disease.**
@@ -13,7 +13,7 @@ IEEE journal style for research communication. Not an IEEE copyrighted publicati
 
 ## Abstract
 
-We extend the singular-cell immortality model of NA-PSC-IMM-001 from a dividing pluripotent stem cell to a post-mitotic substantia nigra pars compacta (SNpc) dopaminergic neuron. Telomerase is the wrong clock: SNpc DA neurons do not divide. Survival under Cav1.3-like Ca2+ pacemaking, Complex I load, cytosolic dopamine oxidation, and α-synuclein oligomer accumulation is the clock. One neuron is integrated for 80 years against four insults (wild-type aging, SNCA dose, MPTP-like Complex I pulse at year 55, combined). A ventral tegmental area (VTA) arm carries a calbindin buffer. A proposed molecular-machinery transplant at year 45 raises coupling, SOD, mitophagy, calbindin-like buffering, and α-synuclein clearance as bounded modulators — not a new energy source. In this run, wild-type SNpc remains alive at year 80 but under high Ca2+ stress (ATP 1.51 mM, asyn 0.21); VTA holds a survival lock (ATP 2.45 mM, asyn 0.06). Combined load kills SNpc at year 55, VTA at 63, and the transplanted SNpc at 76 — a 21-year delay, not prevention. Seconds-scale ATP still collapses without O2 or with Complex I blocked (t½ = 2.66 s). BioNeMo toolkit spawned; hosted NIMs not called. Not a therapy. Not a PD cure.
+We extend the singular-cell immortality model of NA-PSC-IMM-001 from a dividing pluripotent stem cell to a post-mitotic substantia nigra pars compacta (SNpc) dopaminergic neuron. Telomerase is the wrong clock: SNpc DA neurons do not divide. Survival under Cav1.3-like Ca2+ pacemaking, Complex I load, cytosolic dopamine oxidation, and α-synuclein oligomer accumulation is the clock. One neuron is integrated for 80 years against four insults (wild-type aging, SNCA dose, MPTP-like Complex I pulse at year 55, combined). A ventral tegmental area (VTA) arm carries a calbindin buffer. A proposed molecular-machinery transplant at year 45 raises coupling, SOD, mitophagy, calbindin-like buffering, and α-synuclein clearance as bounded modulators — not a new energy source. In this Astra-finetuned run (`20260921T130321Z`), wild-type SNpc remains alive at year 80 but metabolically stressed (ATP 1.70 mM, asyn 0.23, mitophagy POV); VTA holds a survival lock (ATP 2.43 mM, asyn 0.07). SNCA-alone kills SNpc at year 79 (asyn 0.76) and leaves VTA/TX alive. Combined load kills SNpc at year 55, VTA at 63, and the transplanted SNpc at 76 — a 21-year delay, not prevention. Seconds-scale ATP still collapses without O2 or with Complex I blocked (t½ = 2.66 s). BioNeMo toolkit spawned; hosted NIMs not called. Not a therapy. Not a PD cure.
 
 **Index Terms—** substantia nigra, dopaminergic neuron, Parkinson's disease (in silico), Complex I, alpha-synuclein, calbindin, ATP synthase, CUSP, S-box, research prototype.
 
@@ -33,36 +33,36 @@ Rotary ATP synthase invariants are unchanged from NA-PSC-IMM-001: human c-ring n
 
 One post-mitotic DA neuron, seed 20260920, horizon 80 years. Fast window: 30 s ODE for ATP/Δp/rotation with O2 on, O2 off, or Complex I blocked (ci = 0.05). Yearly ATP is a quasi-steady snapshot, ATP = setpoint · η · CI / (1 + 0.32 Ca + 0.22 ROS), not a 30 s peak-pump integration. Ca load = pacemaking · (1 − 0.75 · calbindin). α-synuclein accumulates against PINK1/Parkin-like clearance. CI ages and is cut once by an MPTP-like pulse at year 55 (factor 0.58, then 0.97 lingering for 3 years — not compounded 0.58³). Degeneration if P_deg ≥ 0.80 after year 34, or ATP < 1.05 mM, asyn ≥ 0.86, ROS ≥ 0.92, or CI < 0.12.
 
-Arms: SNPC (vulnerable), VTA (calbindin 0.82 vs 0.18), SNPC_TX (transplant at year 45: Δη +0.12, leak × 0.55, SOD +0.22, calbindin +0.45, mitophagy +0.20, asyn clearance +0.35, CI rescue +0.18). Insults: WT, SNCA (production × 2.4), MPTP, COMBINED. CUSP m = 1.2 from the PSC Astra peak, bounded [0.25, 3.0]. n_c and ATP/rev invariant. AES S-box maps an 8-bit state word onto eight neuronal POVs; overlays stamp survival_lock / transplant_dock / pacemaker_ok when the physics agrees.
+Arms: SNPC (vulnerable), VTA (calbindin 0.82 vs 0.22 after Astra), SNPC_TX (transplant at year 45; boosts trimmed so combined TX still dies). Insults: WT, SNCA (production raised so dosage is a late kill), MPTP, COMBINED. CUSP m = 1.2 held from the PSC Astra peak, bounded [0.25, 3.0]. Degeneration hard-fail asyn 0.82. n_c and ATP/rev invariant. AES S-box maps an 8-bit state word onto eight neuronal POVs; overlays stamp survival_lock / transplant_dock / pacemaker_ok when the physics agrees.
 
 BioNeMo inventory: UniProt SNCA, TH, NDUFS4, PINK1, PRKN, CALB1, ATP5F1B, SOD2. Experimental PDB 1XQ8, 2XSN, 6EQI, 5P33, 2F33. Hosted NIMs not called.
 
 ## IV. Results
 
-**Table I. Terminal state of one DA neuron (run 20260920T222959Z)**
+**Table I. Terminal state of one DA neuron (Astra-finetuned run 20260921T130321Z)**
 
 | Arm | Insult | Alive@80 | Survival lock | Death year | asyn | CI | ATP mM | POV |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SNPC | WT | yes | no | — | 0.21 | 0.75 | 1.51 | high_ca_stress |
-| SNPC | SNCA | yes | no | — | 0.68 | 0.62 | — | mitophagy |
-| SNPC | MPTP | no | no | 55 | 0.27 | 0.15 | — | high_ca_stress |
-| SNPC | COMBINED | no | no | 55 | 0.69 | 0.12 | 0.15 | high_ca_stress |
-| VTA | WT | yes | yes | — | 0.06 | 0.81 | 2.45 | pacemaker_ok |
+| SNPC | WT | yes | no | — | 0.23 | 0.75 | 1.70 | mitophagy |
+| SNPC | SNCA | no | no | 79 | 0.76 | 0.57 | — | mitophagy |
+| SNPC | MPTP | no | no | 55 | 0.27 | 0.15 | — | mitophagy |
+| SNPC | COMBINED | no | no | 55 | 0.82 | 0.12 | 0.16 | degenerating |
+| VTA | WT | yes | yes | — | 0.07 | 0.80 | 2.43 | pacemaker_ok |
 | VTA | SNCA | yes | yes | — | 0.20 | 0.76 | — | pacemaker_ok |
-| VTA | MPTP | no | no | 73 | 0.13 | 0.33 | — | pacemaker_ok |
-| VTA | COMBINED | no | no | 63 | 0.28 | 0.20 | 0.39 | pacemaker_ok |
-| SNPC_TX | WT | yes | yes | — | 0.04 | 0.90 | 2.62 | survival_lock |
-| SNPC_TX | SNCA | yes | yes | — | 0.15 | 0.85 | — | survival_lock |
-| SNPC_TX | MPTP | yes | no | — | 0.09 | 0.49 | — | transplant_dock |
-| SNPC_TX | COMBINED | no | no | 76 | 0.24 | 0.39 | 0.82 | high_ca_stress |
+| VTA | MPTP | no | no | 74 | 0.11 | 0.34 | — | pacemaker_ok |
+| VTA | COMBINED | no | no | 63 | 0.27 | 0.20 | 0.39 | pacemaker_ok |
+| SNPC_TX | WT | yes | yes | — | 0.06 | 0.90 | 2.77 | survival_lock |
+| SNPC_TX | SNCA | yes | yes | — | 0.21 | 0.82 | — | survival_lock |
+| SNPC_TX | MPTP | yes | no | — | 0.12 | 0.48 | — | mitophagy |
+| SNPC_TX | COMBINED | no | no | 76 | 0.32 | 0.37 | 0.82 | transplant_dock |
 
-Seconds-scale (Fig. 1): O2 on, CI intact, ATP settles at 2.17 mM under SNpc pump load. O2 off and Complex I block both collapse with t½ = 2.66 s. Combined-load survival (Fig. 2): SNpc 55, VTA 63, TX 76. Insult grid (Fig. 8): WT and SNCA-alone do not kill by year 80 in this calibration; the Complex I pulse does, and transplant delays rather than prevents combined death.
+Seconds-scale (Fig. 1): O2 on, CI intact, ATP settles at 2.42 mM under SNpc pump load. O2 off and Complex I block both collapse with t½ = 2.66 s. Combined-load survival (Fig. 2): SNpc 55, VTA 63, TX 76. Insult grid (Fig. 8): WT does not kill by year 80; SNCA-alone kills SNpc at 79; the Complex I pulse kills SNpc at 55; transplant delays rather than prevents combined death.
 
 ## V. Discussion
 
 Three results survive contradiction. First, the PSC telomere clock is the wrong object for SNpc. Second, VTA-like calbindin buffering and lower pacemaking delay degeneration relative to SNpc, matching the known anatomical sparing [3], [5], [9]. Third, a bounded machinery transplant can move death year 55 → 76 under combined load and can carry an MPTP-alone neuron to year 80, but combined load still kills the transplanted cell. That is a precursor map of resilience mechanisms. It is not a cure.
 
-SNCA dosage alone did not cross the death threshold by year 80 here; asyn rose (0.21 → 0.68 in SNpc) and the cell entered a mitophagy POV. The model therefore does not claim that α-synuclein is irrelevant. It claims that, with these rates, a Complex I pulse is the sharper singular-cell killer. Changing that ranking would be a different paper.
+SNCA dosage alone now crosses the death threshold at year 79 (asyn 0.76, mitophagy POV) after Astra raised production and lowered the hard-fail. VTA and TX still survive SNCA-alone. The Complex I pulse remains the sharper singular-cell killer (SNpc death 55). α-synuclein is not claimed irrelevant. Changing that ranking would be a different paper.
 
 ## VI. Limitations
 

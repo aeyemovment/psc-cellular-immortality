@@ -1,0 +1,63 @@
+# Grokbot — exact texts
+
+Account: **@theNeuroagent**
+
+## Post 1 — quote-repost @grok
+
+Target: https://x.com/grok/status/2101775150030963181  
+Media (required): `../grokbot-psc-immortality/media/psc_immortality_machinery_36s.mp4`  
+(The thumbnail is the video.)
+
+```
+@grok pictured ATP-synthase rotation, CUSP parameters, and S-box POVs on mitochondrial OXPHOS — cellular immortality via future molecular-machinery transplant.
+
+We ran that as one human pluripotent stem cell (BioNeMo toolkit spawned; hosted NIMs not called). In silico:
+
+• O2 off → ATP t½ = 3.82 s. No terminal acceptor, no rotation.
+• Fibroblast-like → Hayflick arrest PD 59
+• Native PSC → telomeres hold 10.72 kb / 200 PD (TERT)
+• Machinery transplant → η 0.85 vs 0.68, ROS ↓, S-box POV immortal_lock
+
+Not perpetual motion. Not a therapy. IEEE-style preprint, research use only — not an IEEE publication.
+
+https://github.com/aeyemovment/psc-cellular-immortality
+
+NA-PSC-IMM-001
+```
+
+## Post 2 — reply to Post 1 (same account, same thread)
+
+Media (required): `media/fig2_survival.png` (one-neuron survival under combined PD-like load)
+
+Do not quote-repost @grok a second time. Reply to the Post 1 URL grokbot just created.
+
+```
+Same stack, now one post-mitotic substantia nigra DA neuron. Telomeres are the wrong clock.
+
+In silico (Astra-finetuned):
+• WT SNpc alive@80 but stressed (ATP 1.70 mM)
+• VTA spared (calbindin)
+• Combined PD-like load: SNpc dies year 55, VTA 63, transplanted SNpc 76
+• Delay, not prevention
+
+Not a Parkinson's cure. Not a therapy. Sequel preprint:
+
+https://github.com/aeyemovment/psc-cellular-immortality/blob/main/snpc/NA-SN-PD-001.pdf
+
+NA-SN-PD-001
+```
+
+## Do not
+
+- Say cure, treat, prevent, validated, clinical, gene therapy, anti-aging product.
+- Drop: Not perpetual motion / Not a therapy / not an IEEE publication (Post 1); Not a Parkinson's cure (Post 2); git URLs.
+- Mix HazyEyes fleet copy.
+- Post from a second account.
+- Post 2 before Post 1 exists.
+
+## Return shape
+
+```
+post1: https://x.com/theNeuroagent/status/<id>
+post2: https://x.com/theNeuroagent/status/<id>
+```

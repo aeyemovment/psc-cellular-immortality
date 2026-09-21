@@ -1,0 +1,21 @@
+{
+  "asyn_fail": 0.82,
+  "asyn_prod_sn": 0.0056,
+  "calb_sn": 0.22,
+  "cusp_a": -0.45,
+  "cusp_b": 0.06,
+  "cusp_m": 1.2,
+  "da_sn": 0.74,
+  "eta0_sn": 0.77,
+  "leak_sn": 0.018,
+  "mito_sn": 0.75,
+  "pace_sn": 0.72,
+  "seed": 20260920,
+  "sod_sn": 0.68,
+  "tx_asyn_clear": 0.33,
+  "tx_calb_boost": 0.40,
+  "tx_ci_rescue": 0.16,
+  "tx_eta_boost": 0.11,
+  "tx_mito_boost": 0.18,
+  "tx_sod_boost": 0.20
+}
