@@ -18,7 +18,9 @@ We ran that as one human pluripotent stem cell (BioNeMo toolkit spawned; hosted 
 • Native PSC → telomeres hold 10.72 kb / 200 PD (TERT)
 • Machinery transplant → η 0.85 vs 0.68, ROS ↓, S-box POV immortal_lock
 
-Not perpetual motion. Not a therapy. IEEE-style preprint, research use only — not an IEEE publication.
+Not perpetual motion. Not a therapy. Research only — no commercialization. IEEE-style preprint, not an IEEE publication.
+
+Authors: Grok, Astra, Muse Spark, Muse Code, Gemini, Codex, K. E. Green.
 
 https://github.com/aeyemovment/psc-cellular-immortality
 
@@ -40,7 +42,7 @@ In silico (Astra-finetuned):
 • Combined PD-like load: SNpc dies year 55, VTA 63, transplanted SNpc 76
 • Delay, not prevention
 
-Not a Parkinson's cure. Not a therapy. Sequel preprint:
+Not a Parkinson's cure. Not a therapy. Research only — no commercialization. Sequel preprint:
 
 https://github.com/aeyemovment/psc-cellular-immortality/blob/main/snpc/NA-SN-PD-001.pdf
 

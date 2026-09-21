@@ -1,0 +1,12 @@
+{
+  "cusp_a": -0.45,
+  "cusp_b": 0.06,
+  "cusp_m": 1.2,
+  "eta0_psc": 0.76,
+  "leak_frac_psc": 0.015,
+  "seed": 20260920,
+  "sod_psc": 0.8,
+  "tx_eta_boost": 0.15,
+  "tx_leak_cut": 0.5,
+  "tx_sod_boost": 0.22
+}

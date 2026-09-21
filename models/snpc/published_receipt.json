@@ -1,0 +1,1252 @@
+{
+  "arms": {
+    "SNPC_TX|COMBINED": {
+      "alive_at_80": false,
+      "arm": "SNPC_TX",
+      "asyn_end": 0.32,
+      "atp_end": 0.8248,
+      "ci_end": 0.3709,
+      "death_year": 76,
+      "dominant_pov": "transplant_dock",
+      "eta_end": 0.5051,
+      "insult": "COMBINED",
+      "pov_occupancy": {
+        "asyn_seed": 0,
+        "ci_deficit": 0,
+        "degenerating": 4,
+        "high_ca_stress": 22,
+        "mitophagy": 19,
+        "pacemaker_ok": 0,
+        "survival_lock": 6,
+        "transplant_dock": 30
+      },
+      "ros_end": 0.2632,
+      "survival_lock": false,
+      "transplanted": true
+    },
+    "SNPC_TX|MPTP": {
+      "alive_at_80": true,
+      "arm": "SNPC_TX",
+      "asyn_end": 0.1205,
+      "atp_end": 1.1637,
+      "ci_end": 0.4838,
+      "death_year": null,
+      "dominant_pov": "mitophagy",
+      "eta_end": 0.5443,
+      "insult": "MPTP",
+      "pov_occupancy": {
+        "asyn_seed": 0,
+        "ci_deficit": 0,
+        "degenerating": 0,
+        "high_ca_stress": 18,
+        "mitophagy": 27,
+        "pacemaker_ok": 0,
+        "survival_lock": 10,
+        "transplant_dock": 26
+      },
+      "ros_end": 0.2425,
+      "survival_lock": false,
+      "transplanted": true
+    },
+    "SNPC_TX|SNCA": {
+      "alive_at_80": true,
+      "arm": "SNPC_TX",
+      "asyn_end": 0.2129,
+      "atp_end": 2.4142,
+      "ci_end": 0.8181,
+      "death_year": null,
+      "dominant_pov": "survival_lock",
+      "eta_end": 0.6612,
+      "insult": "SNCA",
+      "pov_occupancy": {
+        "asyn_seed": 0,
+        "ci_deficit": 0,
+        "degenerating": 0,
+        "high_ca_stress": 24,
+        "mitophagy": 20,
+        "pacemaker_ok": 0,
+        "survival_lock": 34,
+        "transplant_dock": 3
+      },
+      "ros_end": 0.1895,
+      "survival_lock": true,
+      "transplanted": true
+    },
+    "SNPC_TX|WT": {
+      "alive_at_80": true,
+      "arm": "SNPC_TX",
+      "asyn_end": 0.0577,
+      "atp_end": 2.7746,
+      "ci_end": 0.8977,
+      "death_year": null,
+      "dominant_pov": "survival_lock",
+      "eta_end": 0.6901,
+      "insult": "WT",
+      "pov_occupancy": {
+        "asyn_seed": 0,
+        "ci_deficit": 0,
+        "degenerating": 0,
+        "high_ca_stress": 19,
+        "mitophagy": 26,
+        "pacemaker_ok": 0,
+        "survival_lock": 36,
+        "transplant_dock": 0
+      },
+      "ros_end": 0.1718,
+      "survival_lock": true,
+      "transplanted": true
+    },
+    "SNPC|COMBINED": {
+      "alive_at_80": false,
+      "arm": "SNPC",
+      "asyn_end": 0.8215,
+      "atp_end": 0.1581,
+      "ci_end": 0.1158,
+      "death_year": 55,
+      "dominant_pov": "degenerating",
+      "eta_end": 0.3409,
+      "insult": "COMBINED",
+      "pov_occupancy": {
+        "asyn_seed": 1,
+        "ci_deficit": 0,
+        "degenerating": 25,
+        "high_ca_stress": 24,
+        "mitophagy": 17,
+        "pacemaker_ok": 0,
+        "survival_lock": 0,
+        "transplant_dock": 14
+      },
+      "ros_end": 0.4808,
+      "survival_lock": false,
+      "transplanted": false
+    },
+    "SNPC|MPTP": {
+      "alive_at_80": false,
+      "arm": "SNPC",
+      "asyn_end": 0.2705,
+      "atp_end": 0.2061,
+      "ci_end": 0.1455,
+      "death_year": 55,
+      "dominant_pov": "mitophagy",
+      "eta_end": 0.3519,
+      "insult": "MPTP",
+      "pov_occupancy": {
+        "asyn_seed": 0,
+        "ci_deficit": 0,
+        "degenerating": 25,
+        "high_ca_stress": 19,
+        "mitophagy": 36,
+        "pacemaker_ok": 0,
+        "survival_lock": 1,
+        "transplant_dock": 0
+      },
+      "ros_end": 0.4531,
+      "survival_lock": false,
+      "transplanted": false
+    },
+    "SNPC|SNCA": {
+      "alive_at_80": false,
+      "arm": "SNPC",
+      "asyn_end": 0.7606,
+      "atp_end": 1.1473,
+      "ci_end": 0.5736,
+      "death_year": 79,
+      "dominant_pov": "mitophagy",
+      "eta_end": 0.4907,
+      "insult": "SNCA",
+      "pov_occupancy": {
+        "asyn_seed": 0,
+        "ci_deficit": 0,
+        "degenerating": 1,
+        "high_ca_stress": 23,
+        "mitophagy": 31,
+        "pacemaker_ok": 0,
+        "survival_lock": 0,
+        "transplant_dock": 26
+      },
+      "ros_end": 0.3793,
+      "survival_lock": false,
+      "transplanted": false
+    },
+    "SNPC|WT": {
+      "alive_at_80": true,
+      "arm": "SNPC",
+      "asyn_end": 0.2256,
+      "atp_end": 1.7036,
+      "ci_end": 0.7507,
+      "death_year": null,
+      "dominant_pov": "mitophagy",
+      "eta_end": 0.5518,
+      "insult": "WT",
+      "pov_occupancy": {
+        "asyn_seed": 0,
+        "ci_deficit": 0,
+        "degenerating": 0,
+        "high_ca_stress": 19,
+        "mitophagy": 62,
+        "pacemaker_ok": 0,
+        "survival_lock": 0,
+        "transplant_dock": 0
+      },
+      "ros_end": 0.3271,
+      "survival_lock": false,
+      "transplanted": false
+    },
+    "VTA|COMBINED": {
+      "alive_at_80": false,
+      "arm": "VTA",
+      "asyn_end": 0.2658,
+      "atp_end": 0.3938,
+      "ci_end": 0.2044,
+      "death_year": 63,
+      "dominant_pov": "pacemaker_ok",
+      "eta_end": 0.4112,
+      "insult": "COMBINED",
+      "pov_occupancy": {
+        "asyn_seed": 0,
+        "ci_deficit": 0,
+        "degenerating": 17,
+        "high_ca_stress": 0,
+        "mitophagy": 0,
+        "pacemaker_ok": 55,
+        "survival_lock": 0,
+        "transplant_dock": 9
+      },
+      "ros_end": 0.2748,
+      "survival_lock": false,
+      "transplanted": false
+    },
+    "VTA|MPTP": {
+      "alive_at_80": false,
+      "arm": "VTA",
+      "asyn_end": 0.1147,
+      "atp_end": 0.7403,
+      "ci_end": 0.3409,
+      "death_year": 74,
+      "dominant_pov": "pacemaker_ok",
+      "eta_end": 0.4607,
+      "insult": "MPTP",
+      "pov_occupancy": {
+        "asyn_seed": 0,
+        "ci_deficit": 0,
+        "degenerating": 6,
+        "high_ca_stress": 0,
+        "mitophagy": 0,
+        "pacemaker_ok": 55,
+        "survival_lock": 0,
+        "transplant_dock": 20
+      },
+      "ros_end": 0.2446,
+      "survival_lock": false,
+      "transplanted": false
+    },
+    "VTA|SNCA": {
+      "alive_at_80": true,
+      "arm": "VTA",
+      "asyn_end": 0.2044,
+      "atp_end": 2.2129,
+      "ci_end": 0.7562,
+      "death_year": null,
+      "dominant_pov": "pacemaker_ok",
+      "eta_end": 0.6122,
+      "insult": "SNCA",
+      "pov_occupancy": {
+        "asyn_seed": 0,
+        "ci_deficit": 0,
+        "degenerating": 0,
+        "high_ca_stress": 0,
+        "mitophagy": 0,
+        "pacemaker_ok": 81,
+        "survival_lock": 0,
+        "transplant_dock": 0
+      },
+      "ros_end": 0.1754,
+      "survival_lock": true,
+      "transplanted": false
+    },
+    "VTA|WT": {
+      "alive_at_80": true,
+      "arm": "VTA",
+      "asyn_end": 0.0733,
+      "atp_end": 2.4323,
+      "ci_end": 0.8048,
+      "death_year": null,
+      "dominant_pov": "pacemaker_ok",
+      "eta_end": 0.6308,
+      "insult": "WT",
+      "pov_occupancy": {
+        "asyn_seed": 0,
+        "ci_deficit": 0,
+        "degenerating": 0,
+        "high_ca_stress": 0,
+        "mitophagy": 0,
+        "pacemaker_ok": 81,
+        "survival_lock": 0,
+        "transplant_dock": 0
+      },
+      "ros_end": 0.1636,
+      "survival_lock": true,
+      "transplanted": false
+    }
+  },
+  "bionemo": {
+    "hosted_nims_callable": false,
+    "intended_nims": [
+      "boltz2-nim",
+      "msa-search-nim",
+      "openfold3-nim"
+    ],
+    "note": "Hosted NIMs not called. UniProt + experimental PDB. No fabricated pLDDT.",
+    "paid_gpu_gate": "blocked_no_key",
+    "precursor": "NA-PSC-IMM-001",
+    "reason_if_not": "NGC_API_KEY/NVIDIA_API_KEY not set",
+    "toolkit_root": "/Users/lesharicotsverts/bionemo-agent-toolkit"
+  },
+  "compliance_ref": "Addendum_5/C-00x",
+  "created_at": "2026-09-21T13:03:22.619338+00:00",
+  "cusp_sweep": [
+    {
+      "arms": {
+        "SNPC": {
+          "alive_at_80": false,
+          "arm": "SNPC",
+          "asyn_end": 1.0,
+          "atp_end": 0.0977,
+          "ci_end": 0.1052,
+          "death_year": 55,
+          "dominant_pov": "mitophagy",
+          "eta_end": 0.2386,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 25,
+            "high_ca_stress": 16,
+            "mitophagy": 39,
+            "pacemaker_ok": 0,
+            "survival_lock": 1,
+            "transplant_dock": 0
+          },
+          "ros_end": 0.6556,
+          "survival_lock": false,
+          "transplanted": false
+        },
+        "SNPC_TX": {
+          "alive_at_80": false,
+          "arm": "SNPC_TX",
+          "asyn_end": 0.3847,
+          "atp_end": 0.2048,
+          "ci_end": 0.1469,
+          "death_year": 55,
+          "dominant_pov": "mitophagy",
+          "eta_end": 0.3237,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 25,
+            "high_ca_stress": 16,
+            "mitophagy": 29,
+            "pacemaker_ok": 0,
+            "survival_lock": 0,
+            "transplant_dock": 11
+          },
+          "ros_end": 0.381,
+          "survival_lock": false,
+          "transplanted": true
+        },
+        "VTA": {
+          "alive_at_80": false,
+          "arm": "VTA",
+          "asyn_end": 0.3579,
+          "atp_end": 0.1795,
+          "ci_end": 0.1408,
+          "death_year": 55,
+          "dominant_pov": "degenerating",
+          "eta_end": 0.2783,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 42,
+            "high_ca_stress": 0,
+            "mitophagy": 0,
+            "pacemaker_ok": 38,
+            "survival_lock": 0,
+            "transplant_dock": 1
+          },
+          "ros_end": 0.3875,
+          "survival_lock": false,
+          "transplanted": false
+        }
+      },
+      "cusp_m": 0.25,
+      "modulator": 0.25
+    },
+    {
+      "arms": {
+        "SNPC": {
+          "alive_at_80": false,
+          "arm": "SNPC",
+          "asyn_end": 0.9896,
+          "atp_end": 0.102,
+          "ci_end": 0.1066,
+          "death_year": 55,
+          "dominant_pov": "mitophagy",
+          "eta_end": 0.2453,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 25,
+            "high_ca_stress": 15,
+            "mitophagy": 40,
+            "pacemaker_ok": 0,
+            "survival_lock": 1,
+            "transplant_dock": 0
+          },
+          "ros_end": 0.64,
+          "survival_lock": false,
+          "transplanted": false
+        },
+        "SNPC_TX": {
+          "alive_at_80": false,
+          "arm": "SNPC_TX",
+          "asyn_end": 0.395,
+          "atp_end": 0.2088,
+          "ci_end": 0.1466,
+          "death_year": 55,
+          "dominant_pov": "mitophagy",
+          "eta_end": 0.3303,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 25,
+            "high_ca_stress": 14,
+            "mitophagy": 31,
+            "pacemaker_ok": 0,
+            "survival_lock": 0,
+            "transplant_dock": 11
+          },
+          "ros_end": 0.3754,
+          "survival_lock": false,
+          "transplanted": true
+        },
+        "VTA": {
+          "alive_at_80": false,
+          "arm": "VTA",
+          "asyn_end": 0.3428,
+          "atp_end": 0.1851,
+          "ci_end": 0.1412,
+          "death_year": 55,
+          "dominant_pov": "pacemaker_ok",
+          "eta_end": 0.2855,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 37,
+            "high_ca_stress": 0,
+            "mitophagy": 0,
+            "pacemaker_ok": 43,
+            "survival_lock": 0,
+            "transplant_dock": 1
+          },
+          "ros_end": 0.3787,
+          "survival_lock": false,
+          "transplanted": false
+        }
+      },
+      "cusp_m": 0.5,
+      "modulator": 0.3112
+    },
+    {
+      "arms": {
+        "SNPC": {
+          "alive_at_80": false,
+          "arm": "SNPC",
+          "asyn_end": 0.8536,
+          "atp_end": 0.1397,
+          "ci_end": 0.1136,
+          "death_year": 55,
+          "dominant_pov": "mitophagy",
+          "eta_end": 0.3092,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 25,
+            "high_ca_stress": 12,
+            "mitophagy": 30,
+            "pacemaker_ok": 0,
+            "survival_lock": 1,
+            "transplant_dock": 13
+          },
+          "ros_end": 0.5235,
+          "survival_lock": false,
+          "transplanted": false
+        },
+        "SNPC_TX": {
+          "alive_at_80": false,
+          "arm": "SNPC_TX",
+          "asyn_end": 0.3411,
+          "atp_end": 0.3878,
+          "ci_end": 0.2133,
+          "death_year": 63,
+          "dominant_pov": "transplant_dock",
+          "eta_end": 0.4165,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 17,
+            "high_ca_stress": 13,
+            "mitophagy": 23,
+            "pacemaker_ok": 0,
+            "survival_lock": 2,
+            "transplant_dock": 26
+          },
+          "ros_end": 0.3106,
+          "survival_lock": false,
+          "transplanted": true
+        },
+        "VTA": {
+          "alive_at_80": false,
+          "arm": "VTA",
+          "asyn_end": 0.2879,
+          "atp_end": 0.2523,
+          "ci_end": 0.1516,
+          "death_year": 56,
+          "dominant_pov": "pacemaker_ok",
+          "eta_end": 0.3577,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 24,
+            "high_ca_stress": 0,
+            "mitophagy": 0,
+            "pacemaker_ok": 55,
+            "survival_lock": 0,
+            "transplant_dock": 2
+          },
+          "ros_end": 0.3104,
+          "survival_lock": false,
+          "transplanted": false
+        }
+      },
+      "cusp_m": 1.0,
+      "modulator": 0.9049
+    },
+    {
+      "arms": {
+        "SNPC": {
+          "alive_at_80": false,
+          "arm": "SNPC",
+          "asyn_end": 0.8201,
+          "atp_end": 0.1582,
+          "ci_end": 0.1158,
+          "death_year": 55,
+          "dominant_pov": "degenerating",
+          "eta_end": 0.341,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 1,
+            "ci_deficit": 0,
+            "degenerating": 25,
+            "high_ca_stress": 22,
+            "mitophagy": 19,
+            "pacemaker_ok": 0,
+            "survival_lock": 0,
+            "transplant_dock": 14
+          },
+          "ros_end": 0.4804,
+          "survival_lock": false,
+          "transplanted": false
+        },
+        "SNPC_TX": {
+          "alive_at_80": false,
+          "arm": "SNPC_TX",
+          "asyn_end": 0.3227,
+          "atp_end": 0.8714,
+          "ci_end": 0.3874,
+          "death_year": 77,
+          "dominant_pov": "transplant_dock",
+          "eta_end": 0.5107,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 3,
+            "high_ca_stress": 24,
+            "mitophagy": 19,
+            "pacemaker_ok": 0,
+            "survival_lock": 7,
+            "transplant_dock": 28
+          },
+          "ros_end": 0.2608,
+          "survival_lock": false,
+          "transplanted": true
+        },
+        "VTA": {
+          "alive_at_80": false,
+          "arm": "VTA",
+          "asyn_end": 0.2651,
+          "atp_end": 0.3952,
+          "ci_end": 0.205,
+          "death_year": 63,
+          "dominant_pov": "pacemaker_ok",
+          "eta_end": 0.4114,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 17,
+            "high_ca_stress": 0,
+            "mitophagy": 0,
+            "pacemaker_ok": 55,
+            "survival_lock": 0,
+            "transplant_dock": 9
+          },
+          "ros_end": 0.2747,
+          "survival_lock": false,
+          "transplanted": false
+        }
+      },
+      "cusp_m": 1.2,
+      "modulator": 1.2
+    },
+    {
+      "arms": {
+        "SNPC": {
+          "alive_at_80": false,
+          "arm": "SNPC",
+          "asyn_end": 0.7987,
+          "atp_end": 0.1633,
+          "ci_end": 0.1169,
+          "death_year": 55,
+          "dominant_pov": "high_ca_stress",
+          "eta_end": 0.3482,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 1,
+            "ci_deficit": 0,
+            "degenerating": 25,
+            "high_ca_stress": 26,
+            "mitophagy": 17,
+            "pacemaker_ok": 0,
+            "survival_lock": 0,
+            "transplant_dock": 12
+          },
+          "ros_end": 0.4715,
+          "survival_lock": false,
+          "transplanted": false
+        },
+        "SNPC_TX": {
+          "alive_at_80": false,
+          "arm": "SNPC_TX",
+          "asyn_end": 0.3175,
+          "atp_end": 0.9842,
+          "ci_end": 0.4203,
+          "death_year": 79,
+          "dominant_pov": "transplant_dock",
+          "eta_end": 0.5309,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 1,
+            "high_ca_stress": 26,
+            "mitophagy": 16,
+            "pacemaker_ok": 0,
+            "survival_lock": 7,
+            "transplant_dock": 31
+          },
+          "ros_end": 0.2535,
+          "survival_lock": false,
+          "transplanted": true
+        },
+        "VTA": {
+          "alive_at_80": false,
+          "arm": "VTA",
+          "asyn_end": 0.2477,
+          "atp_end": 0.4933,
+          "ci_end": 0.2424,
+          "death_year": 67,
+          "dominant_pov": "pacemaker_ok",
+          "eta_end": 0.4332,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 13,
+            "high_ca_stress": 0,
+            "mitophagy": 0,
+            "pacemaker_ok": 55,
+            "survival_lock": 0,
+            "transplant_dock": 13
+          },
+          "ros_end": 0.2623,
+          "survival_lock": false,
+          "transplanted": false
+        }
+      },
+      "cusp_m": 1.5,
+      "modulator": 1.2655
+    },
+    {
+      "arms": {
+        "SNPC": {
+          "alive_at_80": false,
+          "arm": "SNPC",
+          "asyn_end": 0.8241,
+          "atp_end": 0.1544,
+          "ci_end": 0.1149,
+          "death_year": 55,
+          "dominant_pov": "degenerating",
+          "eta_end": 0.3359,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 25,
+            "high_ca_stress": 22,
+            "mitophagy": 19,
+            "pacemaker_ok": 0,
+            "survival_lock": 1,
+            "transplant_dock": 14
+          },
+          "ros_end": 0.487,
+          "survival_lock": false,
+          "transplanted": false
+        },
+        "SNPC_TX": {
+          "alive_at_80": false,
+          "arm": "SNPC_TX",
+          "asyn_end": 0.3159,
+          "atp_end": 0.775,
+          "ci_end": 0.3565,
+          "death_year": 75,
+          "dominant_pov": "transplant_dock",
+          "eta_end": 0.4942,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 5,
+            "high_ca_stress": 23,
+            "mitophagy": 19,
+            "pacemaker_ok": 0,
+            "survival_lock": 6,
+            "transplant_dock": 28
+          },
+          "ros_end": 0.2678,
+          "survival_lock": false,
+          "transplanted": true
+        },
+        "VTA": {
+          "alive_at_80": false,
+          "arm": "VTA",
+          "asyn_end": 0.2631,
+          "atp_end": 0.3529,
+          "ci_end": 0.1885,
+          "death_year": 61,
+          "dominant_pov": "pacemaker_ok",
+          "eta_end": 0.4001,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 19,
+            "high_ca_stress": 0,
+            "mitophagy": 0,
+            "pacemaker_ok": 55,
+            "survival_lock": 0,
+            "transplant_dock": 7
+          },
+          "ros_end": 0.2813,
+          "survival_lock": false,
+          "transplanted": false
+        }
+      },
+      "cusp_m": 2.0,
+      "modulator": 1.1549
+    },
+    {
+      "arms": {
+        "SNPC": {
+          "alive_at_80": false,
+          "arm": "SNPC",
+          "asyn_end": 0.8601,
+          "atp_end": 0.1393,
+          "ci_end": 0.1129,
+          "death_year": 55,
+          "dominant_pov": "mitophagy",
+          "eta_end": 0.3101,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 25,
+            "high_ca_stress": 12,
+            "mitophagy": 29,
+            "pacemaker_ok": 0,
+            "survival_lock": 1,
+            "transplant_dock": 14
+          },
+          "ros_end": 0.5225,
+          "survival_lock": false,
+          "transplanted": false
+        },
+        "SNPC_TX": {
+          "alive_at_80": false,
+          "arm": "SNPC_TX",
+          "asyn_end": 0.3304,
+          "atp_end": 0.4116,
+          "ci_end": 0.2238,
+          "death_year": 64,
+          "dominant_pov": "mitophagy",
+          "eta_end": 0.4211,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 16,
+            "high_ca_stress": 12,
+            "mitophagy": 26,
+            "pacemaker_ok": 0,
+            "survival_lock": 3,
+            "transplant_dock": 24
+          },
+          "ros_end": 0.3073,
+          "survival_lock": false,
+          "transplanted": true
+        },
+        "VTA": {
+          "alive_at_80": false,
+          "arm": "VTA",
+          "asyn_end": 0.3015,
+          "atp_end": 0.2538,
+          "ci_end": 0.1519,
+          "death_year": 56,
+          "dominant_pov": "pacemaker_ok",
+          "eta_end": 0.359,
+          "insult": "COMBINED",
+          "pov_occupancy": {
+            "asyn_seed": 0,
+            "ci_deficit": 0,
+            "degenerating": 24,
+            "high_ca_stress": 0,
+            "mitophagy": 0,
+            "pacemaker_ok": 55,
+            "survival_lock": 0,
+            "transplant_dock": 2
+          },
+          "ros_end": 0.3097,
+          "survival_lock": false,
+          "transplanted": false
+        }
+      },
+      "cusp_m": 3.0,
+      "modulator": 0.9154
+    }
+  ],
+  "disclaimer": "RESEARCH PROTOTYPE ONLY (DT#9). Synthetic single-neuron simulation. Not a Parkinson's disease cure, treatment, diagnostic, gene therapy, or clinical protocol. Not perpetual motion. SNpc DA neurons are post-mitotic: survival under PD-like load is not telomere immortality. Claims are bounded to this in-silico run. Not for clinical, diagnostic, production, or regulatory use.",
+  "fast_oxphos": {
+    "ci_block": {
+      "atp_end_mM": 0.0,
+      "ci": 0.05,
+      "collapsed": true,
+      "eta": 0.9239999999999999,
+      "o2": 1.0,
+      "rps_mean": 16.0582949321393,
+      "t_half_atp_s": 2.66
+    },
+    "o2_off": {
+      "atp_end_mM": 0.0,
+      "ci": 1.0,
+      "collapsed": true,
+      "eta": 0.9239999999999999,
+      "o2": 0.0,
+      "rps_mean": 22.062058225424234,
+      "t_half_atp_s": 2.66
+    },
+    "o2_on": {
+      "atp_end_mM": 2.4245752139784877,
+      "ci": 1.0,
+      "collapsed": false,
+      "eta": 0.9239999999999999,
+      "o2": 1.0,
+      "rps_mean": 169.89258488392113,
+      "t_half_atp_s": 12.370000000000001
+    }
+  },
+  "figures": [
+    "/Users/lesharicotsverts/bionemo-agent-toolkit/runs/snpc_da_astra_finetune_20260921T130321Z/figures/fig1_atp_collapse.png",
+    "/Users/lesharicotsverts/bionemo-agent-toolkit/runs/snpc_da_astra_finetune_20260921T130321Z/figures/fig2_survival.png",
+    "/Users/lesharicotsverts/bionemo-agent-toolkit/runs/snpc_da_astra_finetune_20260921T130321Z/figures/fig3_asyn.png",
+    "/Users/lesharicotsverts/bionemo-agent-toolkit/runs/snpc_da_astra_finetune_20260921T130321Z/figures/fig4_complex_i.png",
+    "/Users/lesharicotsverts/bionemo-agent-toolkit/runs/snpc_da_astra_finetune_20260921T130321Z/figures/fig5_ros_wt.png",
+    "/Users/lesharicotsverts/bionemo-agent-toolkit/runs/snpc_da_astra_finetune_20260921T130321Z/figures/fig6_sbox_pov.png",
+    "/Users/lesharicotsverts/bionemo-agent-toolkit/runs/snpc_da_astra_finetune_20260921T130321Z/figures/fig7_cusp_sweep.png",
+    "/Users/lesharicotsverts/bionemo-agent-toolkit/runs/snpc_da_astra_finetune_20260921T130321Z/figures/fig8_insults.png"
+  ],
+  "finetune": {
+    "applied": true,
+    "fields": {
+      "asyn_fail": 0.82,
+      "asyn_prod_sn": 0.0056,
+      "calb_sn": 0.22,
+      "cusp_a": -0.45,
+      "cusp_b": 0.06,
+      "cusp_m": 1.2,
+      "da_sn": 0.74,
+      "eta0_sn": 0.77,
+      "leak_sn": 0.018,
+      "mito_sn": 0.75,
+      "pace_sn": 0.72,
+      "seed": 20260920,
+      "sod_sn": 0.68,
+      "tx_asyn_clear": 0.33,
+      "tx_calb_boost": 0.4,
+      "tx_ci_rescue": 0.16,
+      "tx_eta_boost": 0.11,
+      "tx_mito_boost": 0.18,
+      "tx_sod_boost": 0.2
+    },
+    "path": "/Users/lesharicotsverts/bionemo-agent-toolkit/runs/snpc_da_pd_precursor_20260920T222959Z/astra_finetune.json"
+  },
+  "fusion": "Holo <> BioNeMo <> ATP-synthase-rotary <> Complex-I <> SNpc-DA <> Cav1.3-Ca <> SNCA <> PINK1-Parkin <> CALB1-VTA <> molecular-machinery-transplant <> CUSP* <> |S-box| POV",
+  "not_a_pd_cure": true,
+  "params": {
+    "asyn_fail": 0.82,
+    "asyn_prod_sn": 0.0056,
+    "asyn_prod_vta": 0.0028,
+    "atp0_mM": 5.0,
+    "atp_fail_mM": 1.05,
+    "atp_per_rev": 3,
+    "atp_setpoint_mM": 5.2,
+    "atp_use_per_s": 1.15,
+    "calb_sn": 0.22,
+    "calb_vta": 0.82,
+    "ci_age_per_year": 0.0022,
+    "cusp_a": -0.45,
+    "cusp_b": 0.06,
+    "cusp_m": 1.2,
+    "da_sn": 0.74,
+    "da_vta": 0.55,
+    "dp_max_mV": 180.0,
+    "dp_reverse_mV": 50.0,
+    "dp_threshold_mV": 40.0,
+    "eta0_sn": 0.77,
+    "eta0_vta": 0.78,
+    "fast_dt_s": 0.01,
+    "fast_t_end_s": 30.0,
+    "k_etc": 14.0,
+    "k_leak": 0.28,
+    "k_pmf_from_etc": 11.0,
+    "k_pmf_from_synth": 0.032,
+    "k_syn_base": 2.2,
+    "leak_sn": 0.018,
+    "leak_vta": 0.014,
+    "mito_sn": 0.75,
+    "mito_vta": 0.88,
+    "mptp_ci_cut": 0.58,
+    "mptp_year": 55,
+    "mptp_years": 3,
+    "n_c": 8,
+    "o2_on": 1.0,
+    "pace_sn": 0.72,
+    "pace_vta": 0.4,
+    "ros_fail": 0.92,
+    "rps_max": 250.0,
+    "seed": 20260920,
+    "sod_sn": 0.68,
+    "sod_vta": 0.78,
+    "tx_asyn_clear": 0.33,
+    "tx_calb_boost": 0.4,
+    "tx_ci_rescue": 0.16,
+    "tx_eta_boost": 0.11,
+    "tx_leak_cut": 0.55,
+    "tx_mito_boost": 0.18,
+    "tx_sod_boost": 0.2,
+    "tx_year": 45,
+    "years_horizon": 80
+  },
+  "pd_research_frame": "In-silico precursor map of SNpc DA-neuron resilience. Does not treat, prevent, or cure Parkinson's disease.",
+  "policy_id": "CUSP-SNPC-DA-RESILIENCE-001",
+  "post_mitotic": true,
+  "precursor": "NA-PSC-IMM-001",
+  "research_prototype": true,
+  "risk_flags": [
+    "no_clinical",
+    "unvalidated",
+    "not_perpetual_motion",
+    "not_a_pd_cure",
+    "hosted_nim_not_called",
+    "experimental_PDB_not_predicted_fold"
+  ],
+  "run_dir": "/Users/lesharicotsverts/bionemo-agent-toolkit/runs/snpc_da_astra_finetune_20260921T130321Z",
+  "run_id": "20260921T130321Z",
+  "structures": {
+    "ATP5F1B": {
+      "fasta": "ATP5F1B.fasta",
+      "fold_source": "experimental_PDB_not_OpenFold3",
+      "header": "sp|P06576|ATPB_HUMAN ATP synthase F(1) complex subunit beta, mitochondrial OS=Homo sapiens OX=9606 GN=ATP5F1B PE=1 SV=3",
+      "nims": [
+        "openfold3-nim",
+        "boltz2-nim"
+      ],
+      "pdb": null,
+      "pdb_geometry": {
+        "exists": false
+      },
+      "pdb_id": "1E79",
+      "plddt": null,
+      "role": "F1 catalytic beta \u2014 rotary ATP",
+      "sequence_metrics": {
+        "gravy": 0.0181,
+        "length_aa": 529,
+        "mass_da_proxy": 56561.0,
+        "net_charge_pH7_proxy": -15,
+        "sha256_16": "eea2d95c9cd83fc2"
+      },
+      "synthetic_only": true,
+      "uniprot": "P06576"
+    },
+    "CALB1": {
+      "fasta": "CALB1.fasta",
+      "fold_source": "experimental_PDB_not_OpenFold3",
+      "header": "sp|P05937|CALB1_HUMAN Calbindin OS=Homo sapiens OX=9606 GN=CALB1 PE=1 SV=2",
+      "nims": [
+        "openfold3-nim"
+      ],
+      "pdb": "2F33_CALB1.pdb",
+      "pdb_geometry": {
+        "centroid": [
+          0.07,
+          -0.22,
+          -0.12
+        ],
+        "exists": true,
+        "n_atom": 41920,
+        "n_ca": 2610,
+        "rg_angstrom": 18.525
+      },
+      "pdb_id": "2F33",
+      "plddt": null,
+      "role": "calbindin \u2014 VTA Ca2+ buffer / SNpc-sparing",
+      "sequence_metrics": {
+        "gravy": -0.4985,
+        "length_aa": 261,
+        "mass_da_proxy": 30026.9,
+        "net_charge_pH7_proxy": -17,
+        "sha256_16": "1456ac9d1eef823c"
+      },
+      "synthetic_only": true,
+      "uniprot": "P05937"
+    },
+    "NDUFS4": {
+      "fasta": "NDUFS4.fasta",
+      "fold_source": "experimental_PDB_not_OpenFold3",
+      "header": "sp|O43181|NDUS4_HUMAN NADH dehydrogenase [ubiquinone] iron-sulfur protein 4, mitochondrial OS=Homo sapiens OX=9606 GN=NDUFS4 PE=1 SV=1",
+      "nims": [
+        "openfold3-nim",
+        "msa-search-nim"
+      ],
+      "pdb": null,
+      "pdb_geometry": {
+        "exists": false
+      },
+      "pdb_id": null,
+      "plddt": null,
+      "role": "Complex I Fe-S subunit \u2014 PD-vulnerable",
+      "sequence_metrics": {
+        "gravy": -0.6429,
+        "length_aa": 175,
+        "mass_da_proxy": 20107.2,
+        "net_charge_pH7_proxy": 12,
+        "sha256_16": "fc363bc355c8d48f"
+      },
+      "synthetic_only": true,
+      "uniprot": "O43181"
+    },
+    "PINK1": {
+      "fasta": "PINK1.fasta",
+      "fold_source": "experimental_PDB_not_OpenFold3",
+      "header": "sp|Q9BXM7|PINK1_HUMAN Serine/threonine-protein kinase PINK1, mitochondrial OS=Homo sapiens OX=9606 GN=PINK1 PE=1 SV=1",
+      "nims": [
+        "openfold3-nim",
+        "boltz2-nim"
+      ],
+      "pdb": "6EQI_PINK1.pdb",
+      "pdb_geometry": {
+        "centroid": [
+          60.71,
+          7.07,
+          18.25
+        ],
+        "exists": true,
+        "n_atom": 4395,
+        "n_ca": 589,
+        "rg_angstrom": 25.712
+      },
+      "pdb_id": "6EQI",
+      "plddt": null,
+      "role": "mitophagy kinase",
+      "sequence_metrics": {
+        "gravy": -0.0177,
+        "length_aa": 581,
+        "mass_da_proxy": 62772.1,
+        "net_charge_pH7_proxy": 20,
+        "sha256_16": "3d5e8f2da03741c2"
+      },
+      "synthetic_only": true,
+      "uniprot": "Q9BXM7"
+    },
+    "PRKN": {
+      "fasta": "PRKN.fasta",
+      "fold_source": "experimental_PDB_not_OpenFold3",
+      "header": "sp|O60260|PRKN_HUMAN E3 ubiquitin-protein ligase parkin OS=Homo sapiens OX=9606 GN=PRKN PE=1 SV=2",
+      "nims": [
+        "openfold3-nim"
+      ],
+      "pdb": "5P33_PRKN.pdb",
+      "pdb_geometry": {
+        "centroid": [
+          3.85,
+          -0.18,
+          5.99
+        ],
+        "exists": true,
+        "n_atom": 4585,
+        "n_ca": 330,
+        "rg_angstrom": 19.633
+      },
+      "pdb_id": "5P33",
+      "plddt": null,
+      "role": "parkin E3 ligase \u2014 mitophagy",
+      "sequence_metrics": {
+        "gravy": -0.3938,
+        "length_aa": 465,
+        "mass_da_proxy": 51642.8,
+        "net_charge_pH7_proxy": -2,
+        "sha256_16": "f1c95f90cb66ef3f"
+      },
+      "synthetic_only": true,
+      "uniprot": "O60260"
+    },
+    "SNCA": {
+      "fasta": "SNCA.fasta",
+      "fold_source": "experimental_PDB_not_OpenFold3",
+      "header": "sp|P37840|SYUA_HUMAN Alpha-synuclein OS=Homo sapiens OX=9606 GN=SNCA PE=1 SV=1",
+      "nims": [
+        "openfold3-nim",
+        "boltz2-nim"
+      ],
+      "pdb": "1XQ8_SNCA.pdb",
+      "pdb_geometry": {
+        "centroid": [
+          234.03,
+          32.53,
+          -15.42
+        ],
+        "exists": true,
+        "n_atom": 2017,
+        "n_ca": 140,
+        "rg_angstrom": 46.978
+      },
+      "pdb_id": "1XQ8",
+      "plddt": null,
+      "role": "alpha-synuclein \u2014 PD protein",
+      "sequence_metrics": {
+        "gravy": -0.4029,
+        "length_aa": 140,
+        "mass_da_proxy": 14459.7,
+        "net_charge_pH7_proxy": -9,
+        "sha256_16": "9a06387610edd099"
+      },
+      "synthetic_only": true,
+      "uniprot": "P37840"
+    },
+    "SOD2": {
+      "fasta": "SOD2.fasta",
+      "fold_source": "experimental_PDB_not_OpenFold3",
+      "header": "sp|P04179|SODM_HUMAN Superoxide dismutase [Mn], mitochondrial OS=Homo sapiens OX=9606 GN=SOD2 PE=1 SV=3",
+      "nims": [
+        "openfold3-nim"
+      ],
+      "pdb": null,
+      "pdb_geometry": {
+        "exists": false
+      },
+      "pdb_id": "1N0J",
+      "plddt": null,
+      "role": "mitochondrial MnSOD",
+      "sequence_metrics": {
+        "gravy": -0.4068,
+        "length_aa": 222,
+        "mass_da_proxy": 24751.6,
+        "net_charge_pH7_proxy": 2,
+        "sha256_16": "ddc247f561a1eb32"
+      },
+      "synthetic_only": true,
+      "uniprot": "P04179"
+    },
+    "TH": {
+      "fasta": "TH.fasta",
+      "fold_source": "experimental_PDB_not_OpenFold3",
+      "header": "sp|P07101|TY3H_HUMAN Tyrosine 3-monooxygenase OS=Homo sapiens OX=9606 GN=TH PE=1 SV=5",
+      "nims": [
+        "openfold3-nim"
+      ],
+      "pdb": "2XSN_TH.pdb",
+      "pdb_geometry": {
+        "centroid": [
+          63.57,
+          38.34,
+          28.1
+        ],
+        "exists": true,
+        "n_atom": 10720,
+        "n_ca": 1347,
+        "rg_angstrom": 36.384
+      },
+      "pdb_id": "2XSN",
+      "plddt": null,
+      "role": "tyrosine hydroxylase \u2014 DA synthesis",
+      "sequence_metrics": {
+        "gravy": -0.3652,
+        "length_aa": 528,
+        "mass_da_proxy": 58601.5,
+        "net_charge_pH7_proxy": -10,
+        "sha256_16": "7842020d78ef36d2"
+      },
+      "synthetic_only": true,
+      "uniprot": "P07101"
+    }
+  },
+  "synthetic_only": true,
+  "tag": "astra_finetune",
+  "theory_id": "SNPC-DA-CI-ASYN-CA-TX-001",
+  "thermodynamics": {
+    "claim": "rotation is not free energy",
+    "invariants": {
+      "atp_per_rev": 3,
+      "n_c": 8
+    },
+    "modulator_bounds": [
+      0.25,
+      3.0
+    ],
+    "requires": [
+      "proton_motive_force",
+      "electron_transport",
+      "terminal_acceptor",
+      "complex_I"
+    ]
+  },
+  "version": "0.1.0",
+  "wm_id": "DT-SNPC-DA-RESILIENCE"
+}
