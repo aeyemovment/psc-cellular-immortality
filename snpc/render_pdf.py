@@ -80,10 +80,11 @@ story.append(P(
     "under Parkinson-like Load: An In-Silico Precursor Map, Not a Cure",
     "title",
 ))
-story.append(P("NA-SN-PD-001 · 20 September 2026 · Astra pass + reproduction/review 21 September 2026 · sequel to NA-PSC-IMM-001", "meta"))
+story.append(P("NA-SN-PD-001 · 20 September 2026 · Grok 4.6 review + Grok 4.7 own run 21 September 2026 · sequel to NA-PSC-IMM-001", "meta"))
 story.append(P(
-    "Grok (first; sim + ensemble recompute) · Astra (fine-tune + probe) · Muse Spark (variant sim) · "
-    "Muse Code (same-param runner) · Gemini (independent stats) · Codex (1,000-seed ensemble) · "
+    "Grok 4.6 (simulator, published run, lock-in, delay-gap) · Grok 4.7 (PYTHONHASHSEED=47 own run + ensemble recompute) · "
+    "Astra (fine-tune + probe) · Muse Spark (variant sim) · Muse Code (same-param runner) · "
+    "Gemini (stats on the original three runners; repeat on the 4.7 draw still open) · Codex (1,000-seed ensemble) · "
     "K. E. Green, NeuroAgent AI, Inc., senior author. Credit does not imply xAI or OpenAI endorsement.",
     "meta",
 ))
@@ -156,11 +157,13 @@ story.append(P(
     "Insults: WT, SNCA (production raised so dosage is a late kill), MPTP, COMBINED. CUSP m = 1.2 held from the PSC Astra peak, bounded "
     "[0.25, 3.0]. n<sub>c</sub> and ATP/rev invariant. AES S-box maps an 8-bit state word onto eight "
     "neuronal POVs. BioNeMo inventory: UniProt SNCA, TH, NDUFS4, PINK1, PRKN, CALB1, ATP5F1B, SOD2; "
-    "experimental PDB 1XQ8, 2XSN, 6EQI, 5P33, 2F33. Hosted NIMs not called. Same-parameter trio: Grok published, "
-    "Astra probe, Muse Code (PYTHONHASHSEED=0). Muse Spark (cusp_m=1.15) is a modulator perturbation, not a third model. "
-    "Codex ensemble: 1,000 RNG draws/condition at fixed params. Grok verified outcomes.csv SHA-256, recomputed "
-    "percentiles, lock-in (SNpc combined/MPTP variance 0), and delay-gap 20–23 y with P(delay&gt;0)=1 at this calibration. "
-    "Percentiles are RNG-draw spreads, not confidence intervals."
+    "experimental PDB 1XQ8, 2XSN, 6EQI, 5P33, 2F33. Hosted NIMs not called. Same-parameter runners on one calibration: "
+    "Grok 4.6 published, Astra probe, Muse Code (PYTHONHASHSEED=0), and Grok 4.7 (PYTHONHASHSEED=47, no retune). "
+    "Muse Spark (cusp_m=1.15) is a modulator perturbation, not another model. "
+    "Codex ensemble: 1,000 RNG draws/condition at fixed params. Grok 4.6 and Grok 4.7 each verified outcomes.csv SHA-256 "
+    "a8f39ba2…f9f7587, recomputed percentiles, lock-in (SNpc combined/MPTP variance 0), and delay-gap 20–23 y with "
+    "P(delay&gt;0)=1 at this calibration. A PYTHONHASHSEED=0 re-run matched Codex hash0 on 12/12 conditions and is not a new stream. "
+    "Percentiles are RNG-draw spreads, not confidence intervals. Gemini's published review is the original three runners."
 ))
 
 story.append(P("IV. Results", "h2"))
@@ -203,11 +206,14 @@ story.append(P(
     "later than untreated SNpc, but combined load still kills the transplanted cell. Not a cure."
 ))
 story.append(P(
-    "<b>Same-parameter trio</b> (three runners, one calibration): combined deaths 55/63/76 (Grok published), "
-    "55/63/77 (Astra probe), 55/63/77 (Muse Code). SNCA-only SNpc 79 / 77 / 76. Gemini and Grok independently "
-    "find zero outliers versus the 1,000-seed min–max. Muse Spark 55/59/74 used cusp_m=1.15 — a perturbation, "
-    "not a third same-parameter method. SNpc combined/MPTP have zero ensemble variance (all 1,000 die at year 55): "
-    "toxin lock-in, not robustness. Delay-gap (TX death minus 55) is 20–23 y, P(delay&gt;0)=1.0 <i>at this calibration</i>. "
+    "<b>Same-parameter runners</b> (one calibration): combined deaths 55/63/76 (Grok 4.6 published), "
+    "55/63/77 (Astra probe), 55/63/77 (Muse Code), 55/63/77 (Grok 4.7, PYTHONHASHSEED=47). "
+    "SNCA-only SNpc 79 / 77 / 76 / 76. WT SNpc ATP 1.7036 / 1.6791 / 1.6818 / 1.6918 mM. "
+    "Gemini's review of the original three, and both Grok recomputes, find zero outliers versus the 1,000-seed min–max. "
+    "The Grok 4.7 draw is inside the same ranges; Gemini has not yet repeated that four-runner test. "
+    "Muse Spark 55/59/74 used cusp_m=1.15 — a perturbation, not another same-parameter method. "
+    "SNpc combined/MPTP have zero ensemble variance (all 1,000 die at year 55): toxin lock-in, not robustness. "
+    "Delay-gap (TX death minus 55) is 20–23 y, P(delay&gt;0)=1.0 <i>at this calibration</i>. "
     "Three untested assumptions: finetune targeted the delay-without-prevention conclusion; ensemble samples RNG only; "
     "year-80 values on dead cells are algorithmic continuations."
 ))
@@ -239,7 +245,7 @@ story.append(P(
 story.append(PageBreak())
 story.append(P("References", "h2"))
 refs = [
-    "[1] Grok, Astra, and K. E. Green, NA-PSC-IMM-001, 20 Sep. 2026. https://github.com/aeyemovment/psc-cellular-immortality",
+    "[1] Grok 4.6, Astra, and K. E. Green, NA-PSC-IMM-001, 20 Sep. 2026. https://github.com/aeyemovment/psc-cellular-immortality",
     "[2] A. Bjorklund and S. B. Dunnett, “Dopamine neuron systems in the brain,” Trends Neurosci., vol. 30, pp. 194–202, 2007.",
     "[3] J. M. Fearnley and A. J. Lees, “Ageing and Parkinson's disease: substantia nigra regional selectivity,” Brain, vol. 114, pp. 2283–2301, 1991.",
     "[4] D. J. Surmeier, J. A. Obeso, and G. M. Halliday, “Selective neuronal vulnerability in Parkinson disease,” Nat. Rev. Neurosci., vol. 18, pp. 101–113, 2017.",
@@ -261,7 +267,7 @@ doc = SimpleDocTemplate(
     str(OUT), pagesize=letter,
     leftMargin=0.85 * inch, rightMargin=0.85 * inch,
     topMargin=0.75 * inch, bottomMargin=0.7 * inch,
-    title="NA-SN-PD-001", author="Grok, Astra, K. E. Green",
+    title="NA-SN-PD-001", author="Grok 4.6, Grok 4.7, Astra, K. E. Green",
 )
 doc.build(story, onFirstPage=on_page, onLaterPages=on_page)
 print(OUT)

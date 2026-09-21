@@ -1,0 +1,17 @@
+{
+  "runner": "Grok 4.7",
+  "model": "grok-4.7",
+  "tag": "grok47_own",
+  "PYTHONHASHSEED": "47",
+  "script": "/Users/lesharicotsverts/bionemo-agent-toolkit/scripts/run_snpc_da_resilience.py",
+  "finetune": "/Users/lesharicotsverts/bionemo-agent-toolkit/runs/snpc_da_pd_precursor_20260920T222959Z/astra_finetune.json",
+  "same_parameters_as": "/Users/lesharicotsverts/bionemo-agent-toolkit/runs/snpc_da_astra_finetune_20260921T130321Z/receipt.json",
+  "nominal_seed": 20260920,
+  "cusp_m": 1.2,
+  "n_c": 8,
+  "atp_per_rev": 3,
+  "synthetic_only": true,
+  "research_prototype": true,
+  "not_a_pd_cure": true,
+  "note": "Own same-parameter draw. Not a retune. Not a PD cure."
+}

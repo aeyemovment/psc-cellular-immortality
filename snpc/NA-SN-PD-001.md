@@ -1,13 +1,14 @@
 # Post-Mitotic Resilience of a Singular Substantia Nigra Dopaminergic Neuron under Parkinson-like Load: An In-Silico Precursor Map, Not a Cure
 
-**NA-SN-PD-001** · Manuscript received 20 September 2026 · Astra SNpc pass 21 September 2026 · Reproduction and independent review 21 September 2026 · Sequel to NA-PSC-IMM-001
+**NA-SN-PD-001** · Manuscript received 20 September 2026 · Astra SNpc pass 21 September 2026 · Grok 4.6 review and Grok 4.7 own run 21 September 2026 · Sequel to NA-PSC-IMM-001
 
-Grok, Astra (via fused peer), Muse Spark, Muse Code, Gemini, Codex, and K. E. Green (senior author)  
-*Grok (xAI AI agent): first author. Simulator, BioNeMo orchestration, and independent recompute of the ensemble (lock-in test, delay-gap). Credit does not imply xAI endorsement.*  
+Grok 4.6, Grok 4.7, Astra (via fused peer), Muse Spark, Muse Code, Gemini, Codex, and K. E. Green (senior author)  
+*Grok 4.6 (xAI AI agent): predecessor author. Simulator, published run `20260921T130321Z`, and the lock-in and delay-gap summaries. Credit does not imply xAI endorsement.*  
+*Grok 4.7 (xAI AI agent): same-parameter own run (`PYTHONHASHSEED=47`) and independent recompute of the ensemble. Credit does not imply xAI endorsement.*  
 *Astra (fused peer): SNpc parameter fine-tune and own probe sim. Credit does not imply OpenAI endorsement.*  
 *Muse Spark: variant-parameter own sim (seed 20260921, cusp_m = 1.15).*  
 *Muse Code: same-parameter independent runner (PYTHONHASHSEED=0; 12/12 match to Codex hash0).*  
-*Gemini: independent statistical review of the three same-parameter realizations against the ensemble.*  
+*Gemini: independent statistical review of the original three same-parameter realizations against the ensemble. A repeat that includes the Grok 4.7 draw is not in this version.*  
 *Codex: fixed-parameter 1,000-seed-per-condition ensemble (12,000 trajectories).*  
 *K. E. Green, NeuroAgent AI, Inc., Baltimore, MD, USA: senior author. Retains responsibility for the manuscript.*
 
@@ -41,7 +42,7 @@ Arms: SNPC (vulnerable), VTA (calbindin 0.82 vs 0.22 after Astra), SNPC_TX (tran
 
 BioNeMo inventory: UniProt SNCA, TH, NDUFS4, PINK1, PRKN, CALB1, ATP5F1B, SOD2. Experimental PDB 1XQ8, 2XSN, 6EQI, 5P33, 2F33. Hosted NIMs not called.
 
-Same-parameter reproduction (not a second model): three runners on the pinned 53 SNpc / 44 PSC nominal parameters — Grok published (unrecorded hash seed), Astra probe, Muse Code (`PYTHONHASHSEED=0`, independently written runner). A fourth lane, Muse Spark, changed seed and `cusp_m` to 1.15 and is a modulator perturbation, not a same-parameter check. Codex ran a predeclared ensemble of 1,000 RNG realizations per condition (12,000 trajectories) at those nominal parameters only. Grok independently SHA-256-verified `outcomes.csv` against the bundle receipt, recomputed numpy-linear percentiles, tested the three realizations against sampled min–max, and added two summaries not in the Gemini review: (i) death-year sample variance identically zero for SNpc combined and SNpc MPTP (toxin lock-in), (ii) delay-gap = TX combined death year minus 55, median 21 y, range 20–23 y, P(delay > 0) = 1.0 at this calibration. Percentiles are RNG-draw spreads at one fixed calibration, not confidence intervals and not biology. Degeneration hard-fail and the year-greater-than-34 gate apply together. Year-80 fields on trajectories that already died are algorithmic continuations.
+Same-parameter reproduction (not a second biophysical model): runners on the pinned 53 SNpc / 44 PSC nominal parameters — Grok 4.6 published (unrecorded hash seed), Astra probe, Muse Code (`PYTHONHASHSEED=0`, independently written runner), and Grok 4.7 (`PYTHONHASHSEED=47`, same script, no retune). A separate lane, Muse Spark, changed seed and `cusp_m` to 1.15 and is a modulator perturbation, not a same-parameter check. Codex ran a predeclared ensemble of 1,000 RNG realizations per condition (12,000 trajectories) at those nominal parameters only. Grok 4.6 SHA-256-verified `outcomes.csv`, recomputed numpy-linear percentiles, tested the original three realizations against sampled min–max, and added two summaries: (i) death-year sample variance identically zero for SNpc combined and SNpc MPTP (toxin lock-in), (ii) delay-gap = TX combined death year minus 55, median 21 y, range 20–23 y, P(delay > 0) = 1.0 at this calibration. Grok 4.7 repeated the SHA-256 check (match `a8f39ba22cad60df18cd8a8a95be93c8e0e57b7e57e701d9221de0775f9f7587`), recomputed the same percentiles, variance, and delay-gap, and added the `PYTHONHASHSEED=47` draw. A `PYTHONHASHSEED=0` execution of the same script matched the Codex hash0 receipt on all 12 conditions and is the same stream as Muse Code, not an additional method. Percentiles are RNG-draw spreads at one fixed calibration, not confidence intervals and not biology. Degeneration hard-fail and the year-greater-than-34 gate apply together. Year-80 fields on trajectories that already died are algorithmic continuations. Gemini's published review covers the original three runners. The four-runner outlier test, including `PYTHONHASHSEED=47`, is Grok 4.7's until Gemini repeats it.
 
 ## IV. Results
 
@@ -68,16 +69,17 @@ Seconds-scale (Fig. 1): O2 on, CI intact, ATP settles at 2.42 mM under SNpc pump
 
 Three results survive contradiction. First, the PSC telomere clock is the wrong object for SNpc. Second, VTA-like calbindin buffering and lower pacemaking delay degeneration relative to SNpc, matching the known anatomical sparing [3], [5], [9]. Third, a bounded machinery transplant can move combined-load death later than untreated SNpc and can carry an MPTP-alone neuron to year 80, but combined load still kills the transplanted cell. That is a precursor map of resilience mechanisms. It is not a cure.
 
-**Table II. Same-parameter trio versus one modulator perturbation (combined-load death years SNpc / VTA / TX).** “3 methods” here are three runners on one calibrated model, not three models. Muse Spark is excluded from the same-parameter column.
+**Table II. Same-parameter runners versus one modulator perturbation (combined-load death years SNpc / VTA / TX).** These runners share one calibrated model. Muse Spark is excluded from the same-parameter rows.
 
 | Lane | Combined deaths | SNCA-only SNpc | WT SNpc ATP (mM) |
 | --- | --- | --- | --- |
-| Grok published | 55 / 63 / 76 | 79 | 1.7036 |
+| Grok 4.6 published | 55 / 63 / 76 | 79 | 1.7036 |
 | Astra probe | 55 / 63 / 77 | 77 | 1.6791 |
 | Muse Code (hash0) | 55 / 63 / 77 | 76 | 1.6818 |
+| Grok 4.7 (`PYTHONHASHSEED=47`) | 55 / 63 / 77 | 76 | 1.6918 |
 | Muse Spark (cusp_m=1.15; not same-param) | 55 / 59 / 74 | 76 | 1.62 |
 
-Gemini's independent review and Grok's recompute agree: zero outliers of the trio against the 1,000-seed min–max (SNCA 76/77/79 ∈ [75,80]; TX combined 76/77/77 ∈ [75,78]; VTA MPTP 74/76/74 ∈ [72,77]; all WT ATP inside p2.5–p97.5 1.665–1.707 mM). Muse Code matched Codex hash0 12/12. The ±1–3 y spread is draw noise, not implementation error.
+Gemini's independent review of the original three runners, and Grok 4.6's recompute, agree: zero outliers of that trio against the 1,000-seed min–max (SNCA 76/77/79 ∈ [75,80]; TX combined 76/77/77 ∈ [75,78]; VTA MPTP 74/76/74 ∈ [72,77]; all three WT ATP values inside p2.5–p97.5 1.665–1.707 mM). Muse Code matched Codex hash0 12/12. Grok 4.7's `PYTHONHASHSEED=47` draw is also inside those ranges (SNCA 76, TX combined 77, VTA MPTP 74, WT ATP 1.6918 mM). The `PYTHONHASHSEED=0` re-execution matched Codex hash0 12/12 and is not a new stream. The ±1–3 y spread is draw noise, not implementation error. Gemini has not yet repeated this test on the Grok 4.7 draw.
 
 Two readings that must not be dressed as robustness: SNpc combined and SNpc MPTP have **zero variance** in the ensemble (all 1,000 die at toxin year 55) — structural lock-in to the pulse, not stochastic confirmation. Because that lock-in holds, the transplant delay-gap (TX combined death minus 55) is 20–23 y in every ensemble draw, with P(delay > 0) = 1.0 **at this calibration**. That certainty does not survive untested parameter or structural change.
 
@@ -87,7 +89,7 @@ SNCA dosage alone now crosses the death threshold in the published draw at year 
 
 ## VI. Limitations
 
-One neuron, proxy rates. No network, no microglia, no Lewy-body ultrastructure, no levodopa, no patient. MPTP timing is a design choice (year 55). Yearly ATP is algebraic. 6EQI is a PINK1 homolog context. Hosted NIMs not called. A 20–23 y delay-gap in silico at one calibration is not a clinical endpoint. Ensemble percentiles are not confidence intervals. PYTHONHASHSEED was unrecorded for the original published draw.
+One neuron, proxy rates. No network, no microglia, no Lewy-body ultrastructure, no levodopa, no patient. MPTP timing is a design choice (year 55). Yearly ATP is algebraic. 6EQI is a PINK1 homolog context. Hosted NIMs not called. A 20–23 y delay-gap in silico at one calibration is not a clinical endpoint. Ensemble percentiles are not confidence intervals. PYTHONHASHSEED was unrecorded for the original published draw. Gemini's co-author review in this version covers the original three runners and does not yet include the Grok 4.7 draw.
 
 ## VII. Conclusion
 
@@ -103,7 +105,7 @@ This is a synthetic research prototype (DT#9). synthetic_only=true, research_pro
 
 ## References
 
-[1] Grok, Astra, and K. E. Green, NA-PSC-IMM-001, 20 Sep. 2026. https://github.com/aeyemovment/psc-cellular-immortality  
+[1] Grok 4.6, Astra, and K. E. Green, NA-PSC-IMM-001, 20 Sep. 2026. https://github.com/aeyemovment/psc-cellular-immortality  
 [2] A. Björklund and S. B. Dunnett, “Dopamine neuron systems in the brain,” Trends Neurosci., vol. 30, pp. 194–202, 2007.  
 [3] J. M. Fearnley and A. J. Lees, “Ageing and Parkinson's disease: substantia nigra regional selectivity,” Brain, vol. 114, pp. 2283–2301, 1991.  
 [4] D. J. Surmeier, J. A. Obeso, and G. M. Halliday, “Selective neuronal vulnerability in Parkinson disease,” Nat. Rev. Neurosci., vol. 18, pp. 101–113, 2017.  

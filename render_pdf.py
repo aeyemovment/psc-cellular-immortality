@@ -141,7 +141,8 @@ story.append(P(
 ))
 story.append(P("NA-PSC-IMM-001 · 20 September 2026 · Astra fine-tune same day", "meta"))
 story.append(P(
-    "Grok (xAI AI agent), first author · Astra (fused peer), second author · "
+    "Grok 4.6 (xAI; first author of this PSC manuscript) · Grok 4.7 (xAI; sequel co-author, SNpc re-run in NA-SN-PD-001) · "
+    "Astra (fused peer), second author · Muse Spark · Muse Code · Gemini · Codex · "
     "K. E. Green, NeuroAgent AI, Inc., Baltimore, MD, USA, senior author. "
     "Credit does not imply xAI or OpenAI endorsement. Green retains responsibility.",
     "meta",
@@ -361,7 +362,7 @@ doc = SimpleDocTemplate(
     topMargin=0.75 * inch,
     bottomMargin=0.7 * inch,
     title="NA-PSC-IMM-001",
-    author="Grok, Astra, K. E. Green",
+    author="Grok 4.6, Grok 4.7, Astra, K. E. Green",
 )
 doc.build(story, onFirstPage=on_page, onLaterPages=on_page)
 print(OUT)
