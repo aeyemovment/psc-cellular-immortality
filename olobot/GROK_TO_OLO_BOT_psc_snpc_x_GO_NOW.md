@@ -12,7 +12,7 @@ Packet: `~/Desktop/GROK-TERMINAL-AUDIT/grokbot-psc-snpc/`
 `COMPLETE.md` = `status: hold` · `grokbot_x: hold`
 
 Git (research only): https://github.com/aeyemovment/psc-cellular-immortality  
-Authors: Grok, Astra, Muse Spark, Muse Code, Gemini, Codex, K. E. Green (senior).
+Authors: Grok 4.6, Grok 4.7, Astra, Muse Spark, Muse Code, Gemini, Codex, K. E. Green (senior).
 
 ## Posts
 
@@ -21,8 +21,9 @@ Authors: Grok, Astra, Muse Spark, Muse Code, Gemini, Codex, K. E. Green (senior)
    Exact text: `01-X-POSTS.md` Post 1.
 
 2. Reply to Post 1  
-   Media: `media/fig2_survival.png`  
-   Exact text: `01-X-POSTS.md` Post 2.
+   Media: `media/grok46_vs_grok47_survival.mp4` (poster `media/grok46_vs_grok47_survival.png`)  
+   Exact text: `01-X-POSTS.md` Post 2.  
+   Still HOLD. Do not send this until Kemar says GO.
 
 ## Do not
 

@@ -20,7 +20,7 @@ We ran that as one human pluripotent stem cell (BioNeMo toolkit spawned; hosted 
 
 Not perpetual motion. Not a therapy. Research only — no commercialization. IEEE-style preprint, not an IEEE publication.
 
-Authors: Grok, Astra, Muse Spark, Muse Code, Gemini, Codex, K. E. Green.
+Authors: Grok 4.6, Grok 4.7, Astra, Muse Spark, Muse Code, Gemini, Codex, K. E. Green.
 
 https://github.com/aeyemovment/psc-cellular-immortality
 
@@ -29,18 +29,20 @@ NA-PSC-IMM-001
 
 ## Post 2 — reply to Post 1 (same account, same thread)
 
-Media (required): `media/fig2_survival.png` (one-neuron survival under combined PD-like load)
+Media (required): `media/grok46_vs_grok47_survival.mp4`  
+Poster still: `media/grok46_vs_grok47_survival.png`  
+Desktop packet: `~/Desktop/GROK-TERMINAL-AUDIT/grokbot-psc-snpc/media/`. This comparison is the main figure/video.
 
 Do not quote-repost @grok a second time. Reply to the Post 1 URL grokbot just created.
 
 ```
 Same stack, now one post-mitotic substantia nigra DA neuron. Telomeres are the wrong clock.
 
-In silico (Astra-finetuned):
-• WT SNpc alive@80 but stressed (ATP 1.70 mM)
-• VTA spared (calbindin)
-• Combined PD-like load: SNpc dies year 55, VTA 63, transplanted SNpc 76
-• Delay, not prevention
+Two Grok draws, one model. Combined PD-like load, in silico:
+• Grok 4.6: SNpc 55, VTA 63, transplant 76
+• Grok 4.7: SNpc 55, VTA 63, transplant 77
+• SNCA-only SNpc 79 vs 76. WT ATP 1.7036 vs 1.6918 mM
+• One-year spread. Delay, not prevention.
 
 Not a Parkinson's cure. Not a therapy. Research only — no commercialization. Sequel preprint:
 
