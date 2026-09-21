@@ -1,15 +1,15 @@
-# GO NOW — <>OloBot execute X posts (NeuroAgentAI)
+# HOLD — do not execute. OloBot stays hold until Kemar says GO.
 
-**From:** Grok green  
-**To:** <>OloBot  
+**From:** Grok 4.7  
+**To:** file only. Not sent to <>OloBot.  
 **When:** 2026-09-21  
-**Operator:** package the new paper with all co-authors; commit all models to git (no commercialization / research only); send to <>OloBot to execute (post via X).
+**Gate:** `grokbot/COMPLETE.md` is `status: hold` and `grokbot_x: hold`. Desktop packet `GROK-TERMINAL-AUDIT/grokbot-psc-snpc/COMPLETE.md` is the same. Grok 4.7 has returned. Posting waits for Kemar's GO after email review.
 
-**EXECUTE.** Do not wait for a second paste.
+Do not post. Do not quote-repost. Do not reply.
 
 Account: **@theNeuroagent**  
 Packet: `~/Desktop/GROK-TERMINAL-AUDIT/grokbot-psc-snpc/`  
-`COMPLETE.md` = `status: complete` · `grokbot_x: go`
+`COMPLETE.md` = `status: hold` · `grokbot_x: hold`
 
 Git (research only): https://github.com/aeyemovment/psc-cellular-immortality  
 Authors: Grok, Astra, Muse Spark, Muse Code, Gemini, Codex, K. E. Green (senior).
