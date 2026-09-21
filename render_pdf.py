@@ -141,7 +141,7 @@ story.append(P(
 ))
 story.append(P("NA-PSC-IMM-001 · 20 September 2026 · Astra fine-tune same day", "meta"))
 story.append(P(
-    "Grok 4.6 (xAI; first author of this PSC manuscript) · Grok 4.7 (xAI; sequel co-author, SNpc re-run in NA-SN-PD-001) · "
+    "Grok 4.6 (xAI; first author of this PSC manuscript) · Grok 4.7 (xAI; same-pass re-run of this PSC model and of the SNpc sequel) · "
     "Astra (fused peer), second author · Muse Spark · Muse Code · Gemini · Codex · "
     "K. E. Green, NeuroAgent AI, Inc., Baltimore, MD, USA, senior author. "
     "Credit does not imply xAI or OpenAI endorsement. Green retains responsibility.",
@@ -238,7 +238,11 @@ story.append(P(
     "Intended NIMs: OpenFold3, Boltz2, MSA-Search, ProteinMPNN, Evo2. This process: NGC_API_KEY unset, "
     "Docker down, paid-GPU historically gated. No pLDDT is reported. UniProt sequences and experimental "
     "PDB radius of gyration on CA atoms are Table II. Baseline run 20260920T220655Z; Astra-finetuned run "
-    "20260920T221504Z. Seed unchanged. Fibroblast knobs untouched."
+    "20260920T221504Z. Seed unchanged. Fibroblast knobs untouched. Grok 4.7 re-executed that finetune: "
+    "arms, fast OXPHOS, 44 parameters, and the CUSP sweep matched the published receipt (O<sub>2</sub>-off t½ 3.82 s, "
+    "FIB PD 59, PSC L 10.7243 kb, transplant L 11.0003 kb). Hash seeds 0 and 47 agreed. Codex and Muse Code had already "
+    "matched this receipt. Astra held it. Muse Spark did not re-run PSC. The SNpc sequel inherits n<sub>c</sub>, ATP/rev, "
+    "and this CUSP point. It does not call this simulator."
 ))
 
 story.append(P("IV. Results", "h2"))

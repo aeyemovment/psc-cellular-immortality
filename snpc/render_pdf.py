@@ -82,7 +82,7 @@ story.append(P(
 ))
 story.append(P("NA-SN-PD-001 · 20 September 2026 · Grok 4.6 review + Grok 4.7 own run 21 September 2026 · sequel to NA-PSC-IMM-001", "meta"))
 story.append(P(
-    "Grok 4.6 (simulator, published run, lock-in, delay-gap) · Grok 4.7 (PYTHONHASHSEED=47 own run + ensemble recompute) · "
+    "Grok 4.6 (simulator, published run, lock-in, delay-gap) · Grok 4.7 (same-pass PSC re-run + PYTHONHASHSEED=47 SNpc run) · "
     "Astra (fine-tune + probe) · Muse Spark (variant sim) · Muse Code (same-param runner) · "
     "Gemini (stats on the original three runners; repeat on the 4.7 draw still open) · Codex (1,000-seed ensemble) · "
     "K. E. Green, NeuroAgent AI, Inc., senior author. Credit does not imply xAI or OpenAI endorsement.",
@@ -157,7 +157,12 @@ story.append(P(
     "Insults: WT, SNCA (production raised so dosage is a late kill), MPTP, COMBINED. CUSP m = 1.2 held from the PSC Astra peak, bounded "
     "[0.25, 3.0]. n<sub>c</sub> and ATP/rev invariant. AES S-box maps an 8-bit state word onto eight "
     "neuronal POVs. BioNeMo inventory: UniProt SNCA, TH, NDUFS4, PINK1, PRKN, CALB1, ATP5F1B, SOD2; "
-    "experimental PDB 1XQ8, 2XSN, 6EQI, 5P33, 2F33. Hosted NIMs not called. Same-parameter runners on one calibration: "
+    "experimental PDB 1XQ8, 2XSN, 6EQI, 5P33, 2F33. Hosted NIMs not called. "
+    "This program does not call the PSC simulator. It inherits n<sub>c</sub> = 8, 3 ATP/rev, and CUSP m = 1.2, a = −0.45, b = 0.06. "
+    "Grok 4.7 re-ran that parent in the same pass: the PSC receipt matched 20260920T221504Z (O<sub>2</sub>-off t½ 3.82 s, "
+    "FIB PD 59, PSC L 10.7243 kb, transplant L 11.0003 kb). Codex and Muse Code had already matched it. Astra held the published PSC run. "
+    "Muse Spark did not re-run PSC. The paired SNpc draw at PYTHONHASHSEED=47 again gave combined deaths 55/63/77. "
+    "Same-parameter runners on one calibration: "
     "Grok 4.6 published, Astra probe, Muse Code (PYTHONHASHSEED=0), and Grok 4.7 (PYTHONHASHSEED=47, no retune). "
     "Muse Spark (cusp_m=1.15) is a modulator perturbation, not another model. "
     "Codex ensemble: 1,000 RNG draws/condition at fixed params. Grok 4.6 and Grok 4.7 each verified outcomes.csv SHA-256 "

@@ -1,0 +1,10 @@
+{
+  "runner": "Grok 4.7",
+  "model": "grok-4.7",
+  "tag": "grok47_own",
+  "PYTHONHASHSEED": "47",
+  "synthetic_only": true,
+  "research_prototype": true,
+  "not_a_pd_cure": true,
+  "note": "Same-parameter PSC re-execution. Matched published receipt 20260920T221504Z on arms, fast OXPHOS, 44 params, and CUSP sweep."
+}

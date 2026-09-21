@@ -1,0 +1,10 @@
+{
+  "runner": "Grok 4.7",
+  "model": "grok-4.7",
+  "tag": "grok47_pair",
+  "PYTHONHASHSEED": "47",
+  "synthetic_only": true,
+  "research_prototype": true,
+  "not_a_pd_cure": true,
+  "note": "Paired SNpc re-execution in the same pass as the PSC re-run. Matched the earlier Grok 4.7 PYTHONHASHSEED=47 receipt. Combined deaths 55/63/77."
+}

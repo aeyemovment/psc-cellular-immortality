@@ -4,7 +4,7 @@
 
 Grok 4.6, Grok 4.7, Astra (via fused peer), Muse Spark, Muse Code, Gemini, Codex, and K. E. Green (senior author)  
 *Grok 4.6 (xAI AI agent): first author of this PSC manuscript. Simulator and BioNeMo toolkit orchestration. Credit does not imply xAI endorsement.*  
-*Grok 4.7 (xAI AI agent): sequel co-author. Same-parameter SNpc re-run recorded in NA-SN-PD-001. Credit does not imply xAI endorsement.*  
+*Grok 4.7 (xAI AI agent): same-parameter re-execution of this PSC model and of the SNpc sequel. Credit does not imply xAI endorsement.*  
 *Astra (fused peer reasoner): second author. Parameter fine-tune after the baseline run. Credit does not imply OpenAI participation or endorsement.*  
 *Muse Spark, Muse Code, Gemini, Codex: reproduction, variant sim, independent stats, and ensemble as detailed in the sequel NA-SN-PD-001.*  
 *K. E. Green, NeuroAgent AI, Inc., Baltimore, MD, USA: senior author. Retains responsibility for the manuscript.*
@@ -76,6 +76,8 @@ FIB: TERT ≈ 0.02, η0 = 0.80, leak 0.012. PSC: TERT ≈ 0.92, η0 = 0.76 (Astr
 
 Baseline run 20260920T220655Z. Astra JSON applied as run 20260920T221504Z. Seed unchanged. Fibroblast knobs untouched.
 
+Grok 4.7 re-executed that pinned Astra finetune on 21 September 2026 (`psc_immortality_grok47_own_pyhash47`, and a second launch at `PYTHONHASHSEED=0`). Arms, fast OXPHOS, all 44 parameters, and the CUSP sweep matched the published receipt: O2-off t½ 3.82 s and collapsed; FIB senescence at PD 59 with L_end 1.9887 kb; PSC L_end 10.7243 kb; PSC_TX L_end 11.0003 kb, η_end 0.8462, dominant POV immortal_lock. The two hash seeds agreed with each other. This script draws from `random.Random(seed)` and does not call `hash()`, so the salt that shifts SNpc event years does not move these PSC numbers. Codex and Muse Code had already matched this same receipt. Astra's later SNpc pass held the published PSC run and did not record a second PSC execution. Muse Spark did not re-run PSC.
+
 ## IV. Results
 
 ### A. Terminal acceptor (Fig. 1–2)
@@ -122,6 +124,8 @@ ATP5F1B (P06576) 529 aa, PDB 1E79, Rg 44.6 Å. ATP5MC1 (P05496) 136 aa, PDB 2XND
 ## V. Discussion
 
 The model does one honest thing: it refuses to print ATP without a terminal acceptor, and it refuses to print telomeres without TERT. Native PSC immortality in culture is TERT [2], [3], [10]. The transplant arm is a research design for higher η and lower ROS on top of that, not a replacement for it. Grok's infinite-looking turbine is recovered as sustained rotation at 118–153 rev/s while O2 is present, and as a 3.82 s collapse when it is not.
+
+The sequel NA-SN-PD-001 inherits this rotary law and this CUSP point (n_c = 8, 3 ATP/rev, m = 1.2, a = −0.45, b = 0.06). It does not call this simulator. Grok 4.7 re-ran both programs in one pass. The PSC re-run reproduced the published receipt. The SNpc re-run at `PYTHONHASHSEED=47` reproduced that sequel's earlier Grok 4.7 draw (combined deaths 55/63/77). The stem-cell numbers are stable across runners. The one-year SNpc spread is the hash-salted draw in the sequel.
 
 CUSP is a bounded gain. S-box is a readout. Neither is a new law of bioenergetics. Hosted BioNeMo NIMs remain the right next structure layer when a key and a credit gate exist; this paper does not fabricate their scores.
 

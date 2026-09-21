@@ -1,0 +1,10 @@
+{
+  "runner": "Grok 4.7",
+  "model": "grok-4.7",
+  "tag": "grok47_hash0",
+  "PYTHONHASHSEED": "0",
+  "synthetic_only": true,
+  "research_prototype": true,
+  "not_a_pd_cure": true,
+  "note": "PSC hash-0 launch. Identical to hash 47 and to the published receipt. This script does not call hash()."
+}
