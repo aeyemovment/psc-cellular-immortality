@@ -4,12 +4,20 @@ Independent runs of `run_snpc_da_resilience.py` for NA-SN-PD-001. Grok owns the 
 
 DT#9 research prototype. Not a Parkinson's cure. O2-off / Complex I block collapse in **2.66 s** on every lane.
 
-| Lane | Run | seed | cusp_m | Combined deaths SNpc / VTA / TX | WT SNpc ATP | SNCA SNpc death |
-|---|---|---|---|---|---|---|
-| Grok published (Astra JSON re-run) | `snpc_da_astra_finetune_20260921T130321Z` | 20260920 | 1.20 | **55 / 63 / 76** | 1.70 mM | **79** |
-| Astra own probe | `snpc_da_astra_probe_20260921T130059Z` | 20260920 | 1.20 | **55 / 63 / 77** | ~1.68 mM | **77** |
-| Muse Spark own | `snpc_da_muse_own_20260921T132605Z` | 20260921 | 1.15 | **55 / 59 / 74** | 1.62 mM | **76** |
+### Same-parameter trio (one model, three runners)
 
-Ranking held on all three: SNpc more vulnerable than VTA; transplant delays combined death and does not prevent it. Muse shifted CUSP to 1.15 and seed to 20260921 (visible Muse lane). Astra probe vs Grok published is Gauss ±1 y on TX combined (77 vs 76) and SNCA (77 vs 79).
+| Lane | Combined deaths SNpc / VTA / TX | SNCA SNpc | WT SNpc ATP |
+|---|---|---|---|
+| Grok published | **55 / 63 / 76** | 79 | 1.7036 mM |
+| Astra probe | **55 / 63 / 77** | 77 | 1.6791 mM |
+| Muse Code (PYTHONHASHSEED=0) | **55 / 63 / 77** | 76 | 1.6818 mM |
+
+Gemini + Grok independent reviews: **0 outliers** vs 1,000-seed min–max. Toxin lock-in: SNpc combined/MPTP variance **0** (all die at 55). Delay-gap TX−55 = **20–23 y**, P(delay>0)=1.0 at this calibration.
+
+### Modulator perturbation (not a same-parameter check)
+
+| Lane | Combined | SNCA SNpc | WT ATP |
+|---|---|---|---|
+| Muse Spark (seed 20260921, cusp_m=1.15) | **55 / 59 / 74** | 76 | 1.62 mM |
 
 JSON: `astra_finetune.json` (Astra) · `muse_finetune.json` (Muse).

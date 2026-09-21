@@ -80,11 +80,11 @@ story.append(P(
     "under Parkinson-like Load: An In-Silico Precursor Map, Not a Cure",
     "title",
 ))
-story.append(P("NA-SN-PD-001 · 20 September 2026 · Astra SNpc pass 21 September 2026 · sequel to NA-PSC-IMM-001", "meta"))
+story.append(P("NA-SN-PD-001 · 20 September 2026 · Astra pass + reproduction/review 21 September 2026 · sequel to NA-PSC-IMM-001", "meta"))
 story.append(P(
-    "Grok (xAI AI agent), first author · Astra (fused peer), SNpc fine-tune (CUSP m = 1.2 held) · "
-    "K. E. Green, NeuroAgent AI, Inc., Baltimore, MD, USA, senior author. "
-    "Credit does not imply xAI or OpenAI endorsement.",
+    "Grok (first; sim + ensemble recompute) · Astra (fine-tune + probe) · Muse Spark (variant sim) · "
+    "Muse Code (same-param runner) · Gemini (independent stats) · Codex (1,000-seed ensemble) · "
+    "K. E. Green, NeuroAgent AI, Inc., senior author. Credit does not imply xAI or OpenAI endorsement.",
     "meta",
 ))
 story.append(P(
@@ -156,7 +156,11 @@ story.append(P(
     "Insults: WT, SNCA (production raised so dosage is a late kill), MPTP, COMBINED. CUSP m = 1.2 held from the PSC Astra peak, bounded "
     "[0.25, 3.0]. n<sub>c</sub> and ATP/rev invariant. AES S-box maps an 8-bit state word onto eight "
     "neuronal POVs. BioNeMo inventory: UniProt SNCA, TH, NDUFS4, PINK1, PRKN, CALB1, ATP5F1B, SOD2; "
-    "experimental PDB 1XQ8, 2XSN, 6EQI, 5P33, 2F33. Hosted NIMs not called."
+    "experimental PDB 1XQ8, 2XSN, 6EQI, 5P33, 2F33. Hosted NIMs not called. Same-parameter trio: Grok published, "
+    "Astra probe, Muse Code (PYTHONHASHSEED=0). Muse Spark (cusp_m=1.15) is a modulator perturbation, not a third model. "
+    "Codex ensemble: 1,000 RNG draws/condition at fixed params. Grok verified outcomes.csv SHA-256, recomputed "
+    "percentiles, lock-in (SNpc combined/MPTP variance 0), and delay-gap 20–23 y with P(delay&gt;0)=1 at this calibration. "
+    "Percentiles are RNG-draw spreads, not confidence intervals."
 ))
 
 story.append(P("IV. Results", "h2"))
@@ -194,32 +198,32 @@ story.append(fig("fig4_complex_i.png",
 
 story.append(P("V. Discussion", "h2"))
 story.append(P(
-    "Three results survive contradiction. First, the PSC telomere clock is the wrong object for SNpc. "
-    "Second, VTA-like calbindin buffering and lower pacemaking delay degeneration relative to SNpc, matching "
-    "the known anatomical sparing [3], [5], [9]. Third, a bounded machinery transplant can move death year "
-    "55 to 76 under combined load and can carry an MPTP-alone neuron to year 80, but combined load still "
-    "kills the transplanted cell. That is a precursor map of resilience mechanisms. It is not a cure."
+    "Three results survive contradiction. The PSC telomere clock is the wrong object for SNpc. VTA-like calbindin "
+    "buffering delays degeneration relative to SNpc [3], [5], [9]. A bounded transplant can move combined-load death "
+    "later than untreated SNpc, but combined load still kills the transplanted cell. Not a cure."
 ))
 story.append(P(
-    "SNCA dosage alone now crosses the death threshold at year 79 (asyn 0.76, mitophagy POV). "
-    "VTA and TX still survive SNCA-alone. The Complex I pulse remains the sharper singular-cell killer "
-    "(SNpc death 55). Alpha-synuclein is not claimed irrelevant."
+    "<b>Same-parameter trio</b> (three runners, one calibration): combined deaths 55/63/76 (Grok published), "
+    "55/63/77 (Astra probe), 55/63/77 (Muse Code). SNCA-only SNpc 79 / 77 / 76. Gemini and Grok independently "
+    "find zero outliers versus the 1,000-seed min–max. Muse Spark 55/59/74 used cusp_m=1.15 — a perturbation, "
+    "not a third same-parameter method. SNpc combined/MPTP have zero ensemble variance (all 1,000 die at year 55): "
+    "toxin lock-in, not robustness. Delay-gap (TX death minus 55) is 20–23 y, P(delay&gt;0)=1.0 <i>at this calibration</i>. "
+    "Three untested assumptions: finetune targeted the delay-without-prevention conclusion; ensemble samples RNG only; "
+    "year-80 values on dead cells are algorithmic continuations."
 ))
 
 story.append(P("VI. Limitations", "h2"))
 story.append(P(
-    "One neuron, one seed, proxy rates. No network, no microglia, no Lewy-body ultrastructure, no levodopa, "
-    "no patient. MPTP timing is a design choice (year 55). Yearly ATP is algebraic. Hosted NIMs not called. "
-    "A 21-year delay in silico is not a clinical endpoint."
+    "One neuron, proxy rates. No network, microglia, Lewy body, levodopa, or patient. Ensemble percentiles are not "
+    "confidence intervals. A 20–23 y delay-gap at one calibration is not a clinical endpoint. Hosted NIMs not called."
 ))
 
 story.append(P("VII. Conclusion", "h2"))
 story.append(P(
-    "In this synthetic singular-SNpc run, wild-type aging leaves the DA neuron alive but Ca<sup>2+</sup>-stressed; "
-    "VTA is spared; a Complex I pulse kills SNpc at year 55; transplant delays combined death to year 76 and "
-    "does not prevent it. Parkinson's disease is not cured here. The precursor is a map of what must stay true: "
-    "rotary catalysis still needs a terminal acceptor, post-mitotic survival still needs Complex I and proteostasis, "
-    "and a bounded transplant is not a new law of bioenergetics."
+    "Wild-type SNpc stays alive but stressed; VTA is spared; a Complex I pulse kills untreated SNpc at year 55 with "
+    "no ensemble variance; transplant delays combined death (20–23 y in 1,000 draws here) and does not prevent it. "
+    "Parkinson's disease is not cured here. Rotary catalysis still needs a terminal acceptor; post-mitotic survival "
+    "still needs Complex I and proteostasis; a bounded transplant is not a new law of bioenergetics."
 ))
 story.append(P(
     "Research and education may use and build upon this tech. Sale, paid hosting, and commercial folding-in "
