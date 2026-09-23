@@ -29,20 +29,21 @@ NA-PSC-IMM-001
 
 ## Post 2 — reply to Post 1 (same account, same thread)
 
-Media (required): `media/grok46_vs_grok47_survival.mp4`  
-Poster still: `media/grok46_vs_grok47_survival.png`  
-Desktop packet: `~/Desktop/GROK-TERMINAL-AUDIT/grokbot-psc-snpc/media/`. This comparison is the main figure/video.
+Media (required): `media/all_agents_machinery_survival.mp4`  
+Poster still: `media/all_agents_survival.png`  
+Desktop packet: `~/Desktop/GROK-TERMINAL-AUDIT/grokbot-psc-snpc/media/`. Opens on the original ATP-synthase machinery, then every runner.
 
 Do not quote-repost @grok a second time. Reply to the Post 1 URL grokbot just created.
 
 ```
 Same stack, now one post-mitotic substantia nigra DA neuron. Telomeres are the wrong clock.
 
-Two Grok draws, one model. Combined PD-like load, in silico:
-• Grok 4.6: SNpc 55, VTA 63, transplant 76
-• Grok 4.7: SNpc 55, VTA 63, transplant 77
-• SNCA-only SNpc 79 vs 76. WT ATP 1.7036 vs 1.6918 mM
-• One-year spread. Delay, not prevention.
+Every runner, one model. Combined PD-like load, in silico:
+• Grok 4.6: 55 / 63 / 76
+• Astra, Muse Code, Grok 4.7: 55 / 63 / 77
+• Muse Spark (cusp_m 1.15): 55 / 59 / 74
+• Codex, 1,000 draws: SNpc 55, VTA 61–64, transplant 75–78
+• Delay, not prevention.
 
 Not a Parkinson's cure. Not a therapy. Research only — no commercialization. Sequel preprint:
 
