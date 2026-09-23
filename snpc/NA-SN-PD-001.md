@@ -64,7 +64,25 @@ Same-parameter reproduction (not a second biophysical model): runners on the pin
 | SNPC_TX | MPTP | yes | no | — | 0.12 | 0.48 | — | mitophagy |
 | SNPC_TX | COMBINED | no | no | 76 | 0.32 | 0.37 | 0.82 | transplant_dock |
 
-Seconds-scale (Fig. 1): O2 on, CI intact, ATP settles at 2.42 mM under SNpc pump load. O2 off and Complex I block both collapse with t½ = 2.66 s. Combined-load survival (Fig. 2): SNpc 55, VTA 63, TX 76. Insult grid (Fig. 8): WT does not kill by year 80; SNCA-alone kills SNpc at 79; the Complex I pulse kills SNpc at 55; transplant delays rather than prevents combined death.
+Seconds-scale (Fig. 1): O2 on, CI intact, ATP settles at 2.42 mM under SNpc pump load. O2 off and Complex I block both collapse with t½ = 2.66 s. Combined-load survival (Fig. 2): SNpc 55, VTA 63, TX 76. Insult grid (Fig. 8): WT does not kill by year 80; SNCA-alone kills SNpc at 79; the Complex I pulse kills SNpc at 55; transplant delays rather than prevents combined death. Fig. 3 is α-synuclein under combined load. Fig. 4 is Complex I, including the year-55 pulse. Fig. 5 is wild-type ROS. Fig. 6 is S-box occupancy. Fig. 7 is the CUSP sweep. Fig. 9 is every runner on the same combined-load axis.
+
+![Fig. 1. Seconds-scale ATP. Oxygen off and Complex I block collapse at t½ 2.66 s.](figures/fig1_atp_collapse.png)
+
+![Fig. 2. Combined-load survival. Published draw: SNpc 55, VTA 63, transplant 76.](figures/fig2_survival.png)
+
+![Fig. 3. Alpha-synuclein oligomer load under combined insult.](figures/fig3_asyn.png)
+
+![Fig. 4. Complex I activity under combined insult.](figures/fig4_complex_i.png)
+
+![Fig. 5. ROS under wild-type aging.](figures/fig5_ros_wt.png)
+
+![Fig. 6. S-box POV occupancy under combined insult.](figures/fig6_sbox_pov.png)
+
+![Fig. 7. CUSP sweep. Death year under combined insult. 80 means alive.](figures/fig7_cusp_sweep.png)
+
+![Fig. 8. Death year by insult. 80 means survived.](figures/fig8_insults.png)
+
+![Fig. 9. Every runner. Grok 4.6 is 55/63/76. Astra, Muse Code, and Grok 4.7 are 55/63/77. Muse Spark is 55/59/74. Codex ranges are SNpc 55, VTA 61–64, transplant 75–78.](figures/fig9_all_runners.png)
 
 ## V. Discussion
 

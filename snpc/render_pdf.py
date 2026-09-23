@@ -40,8 +40,8 @@ styles = {
 def P(text, style="body"):
     return Paragraph(text, styles[style])
 
-def fig(name, caption, width=6.3 * inch):
-    img = Image(str(FIG / name), width=width, height=width * 4.2 / 7.2)
+def fig(name, caption, width=6.3 * inch, aspect=4.2 / 7.2):
+    img = Image(str(FIG / name), width=width, height=width * aspect)
     img.hAlign = "CENTER"
     return KeepTogether([img, P(caption, "caption")])
 
@@ -203,6 +203,16 @@ story.append(fig("fig3_asyn.png",
     "Fig. 3. Alpha-synuclein oligomer load under combined insult."))
 story.append(fig("fig4_complex_i.png",
     "Fig. 4. Complex I activity under combined insult, including the year-55 pulse."))
+story.append(fig("fig5_ros_wt.png",
+    "Fig. 5. ROS under wild-type aging. No toxin and no SNCA dose."))
+story.append(fig("fig6_sbox_pov.png",
+    "Fig. 6. S-box POV occupancy under combined insult."))
+story.append(fig("fig7_cusp_sweep.png",
+    "Fig. 7. CUSP sweep. Year of degeneration under combined insult. 80 means still alive at the horizon."))
+story.append(fig("fig9_all_runners.png",
+    "Fig. 9. Every runner, combined load. Grok 4.6 is 55/63/76. Astra, Muse Code, and Grok 4.7 are 55/63/77. "
+    "Muse Spark (cusp_m 1.15) is 55/59/74. Codex bars are the 1,000-draw ranges: SNpc 55, VTA 61–64, transplant 75–78.",
+    aspect=720 / 1280))
 
 story.append(P("V. Discussion", "h2"))
 story.append(P(

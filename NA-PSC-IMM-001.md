@@ -82,25 +82,55 @@ Grok 4.7 re-executed that pinned Astra finetune on 21 September 2026 (`psc_immor
 
 ### A. Terminal acceptor (Fig. 1–2)
 
+![Fig. 1. ATP versus time. Oxygen off collapses with half-time 3.82 s.](figures/fig1_atp_collapse.png)
+
+![Fig. 2. ATP-synthase rotation. Forward with oxygen. Reverse, then stop, without it.](figures/fig2_rotation.png)
+
 With O2 on, ATP settles to 3.37 mM under respiratory control; mean |rotation| is 167 rev/s. With O2 off, ATP half-time is 3.82 s, ATP_end = 0, collapsed = true. Reverse rotation appears briefly as ATPase, then stops. Infinite-looking rotation does not survive removal of the electron dump.
 
 ### B. One-cell lineage (Fig. 3–4, Table I)
+
+![Fig. 3. Shortest telomere. Fibroblast arrest at PD 59. PSC holds near 10.7 kb.](figures/fig3_telomere.png)
+
+![Fig. 4. Senescence probability. Fibroblast crosses at PD 59.](figures/fig4_senescence.png)
 
 FIB reaches the 5 kb senescence line at PD 59 and ends at 1.99 kb. PSC never senesces; L_end = 10.72 kb (min 9.97 kb). PSC_TX never senesces; L_end = 11.00 kb. Native PSC is already "immortal" in this model by TERT. Transplant is an energy-quality increment, not the source of telomere maintenance.
 
 ### C. Coupling, ROS, rotation (Fig. 7, Table I)
 
+![Fig. 7. Coupling. Transplant lifts PSC_TX. Native PSC stays below the fibroblast starting value.](figures/fig7_coupling.png)
+
 Terminal η: FIB 0.71, PSC 0.68, PSC_TX 0.85. Terminal ROS: 0.028, 0.025, 0.010. Steady rotation: 124, 118, 153 rev/s. Steady ATP: 3.46, 3.37, 3.83 mM. Transplant improves coupling and ROS without violating the O2-off collapse.
 
 ### D. CUSP sweep (Fig. 5)
+
+![Fig. 5. CUSP sweep. Fibroblast senescence stays at PD 59 across the modulator bound.](figures/fig5_cusp_sweep.png)
 
 FIB senesce_pd remains 59 at every m in {0.25, 0.5, 1.0, 1.2, 1.5, 2.0, 3.0}. PSC L_end is weak at m ≤ 0.5 (~7.5–7.6 kb) and holds near 10–11 kb for m ≥ 1.0. PSC_TX L_end is robust across the bound. Astra's m = 1.2 is the designed modulator peak.
 
 ### E. S-box occupancy (Fig. 6)
 
+![Fig. 6. S-box occupancy. Transplant spends most of the run in immortal_lock.](figures/fig6_sbox_pov.png)
+
 PSC_TX spends 193/201 PD in immortal_lock. Native PSC, not transplanted, is scrambled into G1_pluripotent (100) and transplant_dock (101)—AES, not a cell-cycle clock. FIB occupies G2_checkpoint and repair_DDR after arrest.
 
-### F. Structures (Table II)
+### F. Imagined machinery stills (Fig. 8–13)
+
+These frames are from the original rotor film. They are a research illustration, not a micrograph.
+
+![Fig. 8. One pluripotent cell.](figures/still01_psc_cell.jpg)
+
+![Fig. 9. ATP synthase and the infinity mark.](figures/still02_atp_synthase.jpg)
+
+![Fig. 10. Electron-transport chain.](figures/still03_etc.jpg)
+
+![Fig. 11. Proposed machinery transplant.](figures/still04_transplant.jpg)
+
+![Fig. 12. Telomerase.](figures/still05_telomerase.jpg)
+
+![Fig. 13. Pullback.](figures/still06_pullback.jpg)
+
+### G. Structures (Table II)
 
 ATP5F1B (P06576) 529 aa, PDB 1E79, Rg 44.6 Å. ATP5MC1 (P05496) 136 aa, PDB 2XND, Rg 57.1 Å. TERT (O14746) 1132 aa, PDB 7BG9 (Tetrahymena holoenzyme homolog), Rg 39.8 Å. SOD2 (P04179) 222 aa, PDB 1N0J, Rg 22.9 Å. No OpenFold3/Boltz2 scores are reported.
 

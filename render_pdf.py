@@ -89,9 +89,9 @@ def P(text, style="body"):
     return Paragraph(text, styles[style])
 
 
-def fig(name, caption, width=6.3 * inch):
+def fig(name, caption, width=6.3 * inch, aspect=4.2 / 7.2):
     path = FIG / name
-    img = Image(str(path), width=width, height=width * 4.2 / 7.2)
+    img = Image(str(path), width=width, height=width * aspect)
     img.hAlign = "CENTER"
     return KeepTogether([img, P(caption, "caption")])
 
@@ -278,6 +278,16 @@ story.append(fig("fig5_cusp_sweep.png",
     "Fig. 5. CUSP modulator sweep. FIB senesce_pd = 59 at every m. PSC L_end weak at m &lt;= 0.5. Astra m = 1.2."))
 story.append(fig("fig6_sbox_pov.png",
     "Fig. 6. S-box POV occupancy. PSC_TX: 193/201 PD immortal_lock. Native PSC scrambled into G1 / transplant_dock."))
+story.append(P("Imagined machinery stills from the original rotor film. Research illustration, not a micrograph.", "h3"))
+for name, cap in (
+    ("still01_psc_cell.jpg", "Fig. 8. One pluripotent cell, the opening frame of the machinery film."),
+    ("still02_atp_synthase.jpg", "Fig. 9. ATP synthase inside the mitochondrion, with the infinity mark. Imagined rotary machinery."),
+    ("still03_etc.jpg", "Fig. 10. Electron-transport chain on the inner membrane."),
+    ("still04_transplant.jpg", "Fig. 11. Proposed machinery transplant docking on the membrane."),
+    ("still05_telomerase.jpg", "Fig. 12. Telomerase at the chromosome end."),
+    ("still06_pullback.jpg", "Fig. 13. Pullback of the same imagined cell."),
+):
+    story.append(fig(name, cap, aspect=720 / 1280))
 story.append(KeepTogether([
     P("<b>Table II.</b> BioNeMo inventory (experimental PDB, not NIM prediction).", "caption"),
     grid(
