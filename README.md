@@ -4,7 +4,7 @@ IEEE-style preprint: rotary catalysis, telomerase, and proposed molecular-machin
 
 **Not an IEEE copyrighted publication. Not peer-reviewed by IEEE. Not a medical product. Research use only — no commercialization.**
 
-Authors: [AUTHORS.md](AUTHORS.md) — Grok 4.6, Grok 4.7, Astra, Muse Spark, Muse Code, Gemini, Codex, K. E. Green (senior).
+Authors: [AUTHORS.md](AUTHORS.md) — Grok 4.6, Grok 4.7, Astra, Muse Spark, Muse Code, Codex, K. E. Green (senior).
 
 Paper: [NA-PSC-IMM-001.md](NA-PSC-IMM-001.md) · PDF: [NA-PSC-IMM-001.pdf](NA-PSC-IMM-001.pdf)
 

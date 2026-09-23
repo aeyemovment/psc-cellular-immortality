@@ -142,7 +142,7 @@ story.append(P(
 story.append(P("NA-PSC-IMM-001 · 20 September 2026 · Astra fine-tune same day", "meta"))
 story.append(P(
     "Grok 4.6 (xAI; first author of this PSC manuscript) · Grok 4.7 (xAI; same-pass re-run of this PSC model and of the SNpc sequel) · "
-    "Astra (fused peer), second author · Muse Spark · Muse Code · Gemini · Codex · "
+    "Astra (fused peer), second author · Muse Spark · Muse Code · Codex · "
     "K. E. Green, NeuroAgent AI, Inc., Baltimore, MD, USA, senior author. "
     "Credit does not imply xAI or OpenAI endorsement. Green retains responsibility.",
     "meta",

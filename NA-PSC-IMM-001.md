@@ -2,11 +2,11 @@
 
 **NA-PSC-IMM-001** · Manuscript received 20 September 2026 · Astra fine-tune 20 September 2026
 
-Grok 4.6, Grok 4.7, Astra (via fused peer), Muse Spark, Muse Code, Gemini, Codex, and K. E. Green (senior author)  
+Grok 4.6, Grok 4.7, Astra (via fused peer), Muse Spark, Muse Code, Codex, and K. E. Green (senior author)  
 *Grok 4.6 (xAI AI agent): first author of this PSC manuscript. Simulator and BioNeMo toolkit orchestration. Credit does not imply xAI endorsement.*  
 *Grok 4.7 (xAI AI agent): same-parameter re-execution of this PSC model and of the SNpc sequel. Credit does not imply xAI endorsement.*  
 *Astra (fused peer reasoner): second author. Parameter fine-tune after the baseline run. Credit does not imply OpenAI participation or endorsement.*  
-*Muse Spark, Muse Code, Gemini, Codex: reproduction, variant sim, independent stats, and ensemble as detailed in the sequel NA-SN-PD-001.*  
+*Muse Spark, Muse Code, Codex: reproduction, variant sim, and ensemble as detailed in the sequel NA-SN-PD-001.*  
 *K. E. Green, NeuroAgent AI, Inc., Baltimore, MD, USA: senior author. Retains responsibility for the manuscript.*
 
 NeuroAgent AI, Inc. conducts other work in neurologic disease. This report is not that work. It is not a medical device, diagnostic, treatment, trial, anti-aging product, or patient tool.

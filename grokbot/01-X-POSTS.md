@@ -20,7 +20,7 @@ We ran that as one human pluripotent stem cell (BioNeMo toolkit spawned; hosted 
 
 Not perpetual motion. Not a therapy. Research only — no commercialization. IEEE-style preprint, not an IEEE publication.
 
-Authors: Grok 4.6, Grok 4.7, Astra, Muse Spark, Muse Code, Gemini, Codex, K. E. Green.
+Authors: Grok 4.6, Grok 4.7, Astra, Muse Spark, Muse Code, Codex, K. E. Green.
 
 https://github.com/aeyemovment/psc-cellular-immortality
 

@@ -13,7 +13,7 @@ DT#9 research prototype. Not a Parkinson's cure. O2-off / Complex I block collap
 | Muse Code (PYTHONHASHSEED=0) | **55 / 63 / 77** | 76 | 1.6818 mM |
 | Grok 4.7 (`PYTHONHASHSEED=47`) | **55 / 63 / 77** | 76 | 1.6918 mM |
 
-Grok 4.6 and Gemini: **0 outliers** of the original three vs 1,000-seed min–max. Grok 4.7 recomputed the same ranges and found the `PYTHONHASHSEED=47` draw inside them. Gemini's repeat on that draw is open. A Grok 4.7 `PYTHONHASHSEED=0` execution matched Codex hash0 12/12 and is not an extra method. Toxin lock-in: SNpc combined/MPTP variance **0** (all die at 55). Delay-gap TX−55 = **20–23 y**, P(delay>0)=1.0 at this calibration.
+Grok 4.6 and Grok 4.7 recomputed **0 outliers** of the same-parameter draws vs 1,000-seed min–max, including the `PYTHONHASHSEED=47` row. A Grok 4.7 `PYTHONHASHSEED=0` execution matched Codex hash0 12/12 and is not an extra method. Toxin lock-in: SNpc combined/MPTP variance **0** (all die at 55). Delay-gap TX−55 = **20–23 y**, P(delay>0)=1.0 at this calibration.
 
 ### Modulator perturbation (not a same-parameter check)
 

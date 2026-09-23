@@ -12,7 +12,7 @@ Packet: `~/Desktop/GROK-TERMINAL-AUDIT/grokbot-psc-snpc/`
 `COMPLETE.md` = `status: hold` · `grokbot_x: hold`
 
 Git (research only): https://github.com/aeyemovment/psc-cellular-immortality  
-Authors: Grok 4.6, Grok 4.7, Astra, Muse Spark, Muse Code, Gemini, Codex, K. E. Green (senior).
+Authors: Grok 4.6, Grok 4.7, Astra, Muse Spark, Muse Code, Codex, K. E. Green (senior).
 
 ## Posts
 

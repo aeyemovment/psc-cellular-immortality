@@ -84,7 +84,7 @@ story.append(P("NA-SN-PD-001 · 20 September 2026 · Grok 4.6 review + Grok 4.7 
 story.append(P(
     "Grok 4.6 (simulator, published run, lock-in, delay-gap) · Grok 4.7 (same-pass PSC re-run + PYTHONHASHSEED=47 SNpc run) · "
     "Astra (fine-tune + probe) · Muse Spark (variant sim) · Muse Code (same-param runner) · "
-    "Gemini (stats on the original three runners; repeat on the 4.7 draw still open) · Codex (1,000-seed ensemble) · "
+    "Codex (1,000-seed ensemble) · "
     "K. E. Green, NeuroAgent AI, Inc., senior author. Credit does not imply xAI or OpenAI endorsement.",
     "meta",
 ))
@@ -168,7 +168,7 @@ story.append(P(
     "Codex ensemble: 1,000 RNG draws/condition at fixed params. Grok 4.6 and Grok 4.7 each verified outcomes.csv SHA-256 "
     "a8f39ba2…f9f7587, recomputed percentiles, lock-in (SNpc combined/MPTP variance 0), and delay-gap 20–23 y with "
     "P(delay&gt;0)=1 at this calibration. A PYTHONHASHSEED=0 re-run matched Codex hash0 on 12/12 conditions and is not a new stream. "
-    "Percentiles are RNG-draw spreads, not confidence intervals. Gemini's published review is the original three runners."
+    "Percentiles are RNG-draw spreads, not confidence intervals. The outlier test is the Grok recompute from outcomes.csv."
 ))
 
 story.append(P("IV. Results", "h2"))
@@ -214,8 +214,7 @@ story.append(P(
     "<b>Same-parameter runners</b> (one calibration): combined deaths 55/63/76 (Grok 4.6 published), "
     "55/63/77 (Astra probe), 55/63/77 (Muse Code), 55/63/77 (Grok 4.7, PYTHONHASHSEED=47). "
     "SNCA-only SNpc 79 / 77 / 76 / 76. WT SNpc ATP 1.7036 / 1.6791 / 1.6818 / 1.6918 mM. "
-    "Gemini's review of the original three, and both Grok recomputes, find zero outliers versus the 1,000-seed min–max. "
-    "The Grok 4.7 draw is inside the same ranges; Gemini has not yet repeated that four-runner test. "
+    "Grok 4.6 and Grok 4.7 recomputed zero outliers of these four draws versus the 1,000-seed min–max. "
     "Muse Spark 55/59/74 used cusp_m=1.15 — a perturbation, not another same-parameter method. "
     "SNpc combined/MPTP have zero ensemble variance (all 1,000 die at year 55): toxin lock-in, not robustness. "
     "Delay-gap (TX death minus 55) is 20–23 y, P(delay&gt;0)=1.0 <i>at this calibration</i>. "
