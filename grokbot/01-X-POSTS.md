@@ -9,19 +9,16 @@ Media (required): `../grokbot-psc-immortality/media/psc_immortality_machinery_36
 (The thumbnail is the video.)
 
 ```
-@grok pictured ATP-synthase rotation, CUSP parameters, and S-box POVs on mitochondrial OXPHOS — cellular immortality via future molecular-machinery transplant.
+@grok pictured ATP-synthase rotation as future molecular machinery. We ran that picture as one human pluripotent stem cell, in silico.
 
-We ran that as one human pluripotent stem cell (BioNeMo toolkit spawned; hosted NIMs not called). In silico:
+Oxygen off collapses ATP in 3.82 s. A fibroblast-like cell arrests at doubling 59. Native PSC holds telomeres at 10.72 kb. A machinery transplant raises coupling from 0.68 to 0.85.
 
-• O2 off → ATP t½ = 3.82 s. No terminal acceptor, no rotation.
-• Fibroblast-like → Hayflick arrest PD 59
-• Native PSC → telomeres hold 10.72 kb / 200 PD (TERT)
-• Machinery transplant → η 0.85 vs 0.68, ROS ↓, S-box POV immortal_lock
+A tiny in-silico step on that question. Not perpetual motion. Not a therapy.
 
-Not perpetual motion. Not a therapy. Research only — no commercialization. IEEE-style preprint, not an IEEE publication.
+Preprint:
+https://github.com/aeyemovment/psc-cellular-immortality/blob/main/NA-PSC-IMM-001.pdf
 
-Authors: Grok 4.6, Grok 4.7, Astra, Muse Spark, Muse Code, Codex, K. E. Green.
-
+Git, research only, no commercialization:
 https://github.com/aeyemovment/psc-cellular-immortality
 
 NA-PSC-IMM-001
@@ -36,20 +33,22 @@ Desktop packet: `~/Desktop/GROK-TERMINAL-AUDIT/grokbot-psc-snpc/media/`. Opens o
 Do not quote-repost @grok a second time. Reply to the Post 1 URL grokbot just created.
 
 ```
-Same stack, now one post-mitotic substantia nigra DA neuron. Telomeres are the wrong clock.
+Use case: one substantia nigra dopamine neuron. Every runner, one model. Combined load, in silico.
 
-Every runner, one model. Combined PD-like load, in silico:
-• Grok 4.6: 55 / 63 / 76
-• Astra, Muse Code, Grok 4.7: 55 / 63 / 77
-• Muse Spark (cusp_m 1.15): 55 / 59 / 74
-• Codex, 1,000 draws: SNpc 55, VTA 61–64, transplant 75–78
-• Delay, not prevention.
+Grok 4.6: 55 / 63 / 76
+Astra, Muse Code, Grok 4.7: 55 / 63 / 77
+Muse Spark (cusp_m 1.15): 55 / 59 / 74
+Codex, 1,000 draws: SNpc locked at 55, VTA 61–64, transplant 75–78
 
-Not a Parkinson's cure. Not a therapy. Research only — no commercialization. Sequel preprint:
+The flaw: transplant delays death, and the cell still dies. In all 1,000 draws, SNpc combined death is locked to the toxin year. One neuron, one calibration, no patient. If there is a way past that lock, the community has to find it.
 
+Preprint:
 https://github.com/aeyemovment/psc-cellular-immortality/blob/main/snpc/NA-SN-PD-001.pdf
 
-NA-SN-PD-001
+Git, research only, no commercialization:
+https://github.com/aeyemovment/psc-cellular-immortality
+
+Not a Parkinson's cure. Not a therapy.
 ```
 
 ## Do not

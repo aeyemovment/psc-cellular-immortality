@@ -1,5 +1,8 @@
-# HOLD — <>OloBot
+# GO — <>grokbot / <>OloBot
 
-`COMPLETE.md` is `status: hold` and `grokbot_x: hold`. Do not post until Kemar says GO.
+`COMPLETE.md` is `status: complete` and `grokbot_x: go`. Account: @theNeuroagent only.
 
-When that GO arrives, Post 2's main media is `media/all_agents_machinery_survival.mp4` (poster `media/all_agents_survival.png`). Exact texts in `01-X-POSTS.md`. Research only. No commercialization. Not a PD cure.
+1. Quote-repost https://x.com/grok/status/2101775150030963181 with the 36 s machinery video. Text: Post 1 in `01-X-POSTS.md`.
+2. Reply with `media/all_agents_machinery_survival.mp4`. Text: Post 2 in `01-X-POSTS.md`.
+
+Research only. No commercialization. Do not call this a Parkinson's cure. The sim shows a delay, and the cell still dies.
